@@ -1,0 +1,5 @@
+// meminfo status was 0
+:Dropped: keys=0 pointers=218 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=5740282ms (0ms mobile, 0ms wifi, 5740282ms not connected)
+** System appears to have crashed at event 11130 of 43200 using seed 1684322559866
+FINISHED EXERCISING AT 15-05-2023 03:31:26

@@ -1,0 +1,70 @@
+  bash arg: -v-v-v
+  bash arg: -p
+  bash arg: com.baidu.searchbox
+  bash arg: -s
+  bash arg: 123
+  bash arg: --ignore-crashes
+  bash arg: --ignore-timeouts
+  bash arg: --ignore-security-exceptions
+  bash arg: --monitor-native-crashes
+  bash arg: --ignore-native-crashes
+  bash arg: --pct-trackball
+  bash arg: 0
+  bash arg: --pct-nav
+  bash arg: 0
+  bash arg: --pct-syskeys
+  bash arg: 0
+  bash arg: --throttle
+  bash arg: 1000
+  bash arg: 10000000
+:Monkey: seed=123 count=10000000
+:AllowPackage: com.baidu.searchbox
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 25.862068%
+//   1: 17.241379%
+//   2: 3.4482758%
+//   3: -0.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: -0.0%
+//   7: 25.862068%
+//   8: -0.0%
+//   9: 3.4482758%
+//   10: 1.7241379%
+//   11: 22.413794%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.baidu.searchbox/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.baidu.searchbox/.SplashActivity mCallingUid=2000 } in package com.baidu.searchbox
+    // activityResuming(com.baidu.searchbox)
+:Sending Touch (ACTION_DOWN): 0:(56.0,357.0)
+:Sending Touch (ACTION_UP): 0:(48.49024,357.95953)
+:Sending Touch (ACTION_DOWN): 0:(549.0,444.0)
+:Sending Touch (ACTION_UP): 0:(546.1817,447.57425)
+:Sending Touch (ACTION_DOWN): 0:(458.0,965.0)
+:Sending Touch (ACTION_UP): 0:(456.49005,962.48785)
+:Sending Touch (ACTION_DOWN): 0:(212.0,706.0)
+:Sending Touch (ACTION_UP): 0:(226.64258,716.7657)
+:Sending Touch (ACTION_DOWN): 0:(695.0,82.0)
+:Sending Touch (ACTION_UP): 0:(693.1536,101.27672)
+:Sending Touch (ACTION_DOWN): 0:(316.0,1435.0)
+:Sending Touch (ACTION_UP): 0:(310.8673,1433.548)
+:Sending Touch (ACTION_DOWN): 0:(261.0,1076.0)
+:Sending Touch (ACTION_UP): 0:(244.5321,1076.6927)
+:Sending Touch (ACTION_DOWN): 0:(689.0,128.0)
+:Sending Touch (ACTION_UP): 0:(686.8102,137.14493)
+:Sending Touch (ACTION_DOWN): 0:(513.0,121.0)
+:Sending Touch (ACTION_UP): 0:(512.86847,106.50386)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.baidu.searchbox/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.baidu.searchbox/.SplashActivity mCallingUid=2000 } in package com.baidu.searchbox
+    // activityResuming(com.baidu.searchbox)
+:Sending Touch (ACTION_DOWN): 0:(909.0,217.0)
+:Sending Touch (ACTION_UP): 0:(896.8488,221.17653)
+:Sending Touch (ACTION_DOWN): 0:(1402.0,140.0)
+:Sending Touch (ACTION_UP): 0:(1405.205,127.72783)
+:Sending Touch (ACTION_DOWN): 0:(736.0,270.0)
+:Sending Touch (ACTION_UP): 0:(677.0225,234.95262)
+:Sending Touch (ACTION_DOWN): 0:(289.0,121.0)
+:Sending Touch (ACTION_UP): 0:(294.0327,118.84675)
+:Sending Touch (ACTION_DOWN): 0:(669.0,368.0)
+:Sending Touch (ACTION_UP): 0:(696.0915,270.87662)

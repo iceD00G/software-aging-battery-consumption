@@ -1,0 +1,71 @@
+com.simplemobiletools.notes
+STARTED EXERCISING AT 18-06-2023 01:15:55
+
+
+
+Collecting data 644. (24219) (18-06-2023 07:59:33)
+Collecting data 645. (24256) (18-06-2023 08:00:10)
+Collecting data 646. (24294) (18-06-2023 08:00:48)
+Collecting data 647. (24331) (18-06-2023 08:01:25)
+Collecting data 648. (24369) (18-06-2023 08:02:03)
+Collecting data 649. (24407) (18-06-2023 08:02:41)
+Collecting data 650. (24446) (18-06-2023 08:03:20)
+Collecting data 651. (24484) (18-06-2023 08:03:58)
+error: closed
+adb.exe: device offline
+adb.exe: device offline
+adb.exe: device offline
+adb.exe: device offline
+- waiting for device -
+
+
+CRASH: com.simplemobiletools.notes (pid 16535)
+// Short Msg: java.lang.IndexOutOfBoundsException
+// Long Msg: java.lang.IndexOutOfBoundsException: setSpan (-1 ... -1) starts before 0
+// Build Label: OPPO/CPH2271EEA/OP4F97:12/SP1A.210812.016/R.GDPR.e4fdd2_1869c:user/release-keys
+// Build Changelist: R.GDPR.e4fdd2_1869c
+// Build Time: 1676558783000
+// java.lang.IndexOutOfBoundsException: setSpan (-1 ... -1) starts before 0
+//      at android.text.SpannableStringBuilder.checkRange(SpannableStringBuilder.java:1331)
+//      at android.text.SpannableStringBuilder.setSpan(SpannableStringBuilder.java:685)
+//      at android.text.SpannableStringBuilder.setSpan(SpannableStringBuilder.java:677)
+//      at android.text.Selection.setSelection(Selection.java:94)
+//      at android.text.Selection.setSelection(Selection.java:78)
+//      at android.text.Selection.setSelection(Selection.java:153)
+//      at android.widget.Editor$InsertionHandleView.updateSelection(Editor.java:5812)
+//      at android.widget.Editor$HandleView.positionAtCursorOffset(Editor.java:5057)
+//      at android.widget.Editor$HandleView.filterOnTouchUp(Editor.java:4931)
+//      at android.widget.Editor$HandleView.onTouchEvent(Editor.java:5496)
+//      at android.widget.Editor$InsertionHandleView.onTouchEvent(Editor.java:5653)
+//      at android.view.View.dispatchTouchEvent(View.java:14668)
+//      at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3222)
+//      at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2867)
+//      at android.widget.PopupWindow$PopupDecorView.dispatchTouchEvent(PopupWindow.java:2573)
+//      at android.view.View.dispatchPointerEvent(View.java:14940)
+//      at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:6992)
+//      at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:6763)
+//      at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:6228)
+//      at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:6290)
+//      at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:6251)
+//      at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:6425)
+//      at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:6259)
+//      at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:6482)
+//      at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:6232)
+//      at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:6290)
+//      at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:6251)
+//      at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:6259)
+//      at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:6232)
+//      at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:9372)
+//      at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:9312)
+//      at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:9258)
+//      at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:9526)
+//      at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:265)
+//      at android.os.MessageQueue.nativePollOnce(Native Method)
+//      at android.os.MessageQueue.next(MessageQueue.java:339)
+//      at android.os.Looper.loopOnce(Looper.java:179)
+//      at android.os.Looper.loop(Looper.java:344)
+//      at android.app.ActivityThread.main(ActivityThread.java:8248)
+//      at java.lang.reflect.Method.invoke(Native Method)
+//      at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:589)
+//      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1071)
+//

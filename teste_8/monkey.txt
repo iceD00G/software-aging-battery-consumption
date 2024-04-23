@@ -1,0 +1,2069 @@
+  bash arg: -v-v-v
+  bash arg: -p
+  bash arg: com.sina.weibo
+  bash arg: --ignore-crashes
+  bash arg: --ignore-timeouts
+  bash arg: --ignore-security-exceptions
+  bash arg: --monitor-native-crashes
+  bash arg: --ignore-native-crashes
+  bash arg: --throttle
+  bash arg: 1000
+  bash arg: 10000000
+:Monkey: seed=1684316201512 count=10000000
+:AllowPackage: com.sina.weibo
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(395.0,1363.0)
+:Sending Touch (ACTION_UP): 0:(388.62375,1346.2036)
+:Sending Touch (ACTION_DOWN): 0:(641.0,1182.0)
+:Sending Touch (ACTION_UP): 0:(675.6076,1263.446)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(425.0,1267.0)
+:Sending Touch (ACTION_UP): 0:(414.2647,1260.9169)
+:Sending Touch (ACTION_DOWN): 0:(41.0,1147.0)
+:Sending Touch (ACTION_UP): 0:(66.33893,1316.8374)
+    // Allowing start of Intent { cmp=com.sina.weibo/.VisitorMainTabActivity mCallingUid=10226 } in package com.sina.weibo
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(82.0,1120.0)
+:Sending Touch (ACTION_UP): 0:(86.24717,1107.018)
+    // Allowing start of Intent { cmp=com.sina.weibo/.feed.DetailWeiboActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(571.0,536.0)
+:Sending Touch (ACTION_UP): 0:(554.76935,543.9153)
+    // Allowing start of Intent { cmp=com.sina.weibo/.video.tabcontainer.VideoTabContainerActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(643.0,285.0)
+:Sending Touch (ACTION_UP): 0:(558.10394,274.1551)
+:Sending Touch (ACTION_DOWN): 0:(548.0,547.0)
+:Sending Touch (ACTION_UP): 0:(562.4578,497.02097)
+:Sending Touch (ACTION_DOWN): 0:(264.0,619.0)
+:Sending Touch (ACTION_UP): 0:(358.70572,588.5773)
+    //[calendar_time:2023-05-17 00:15:53.877  system_uptime:94838297]
+    // Sending event #100
+    //[calendar_time:2023-05-17 00:15:54.932  system_uptime:94839299]
+    // Sending event #100
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(256.0,1260.0)
+:Sending Touch (ACTION_UP): 0:(192.85205,1324.0457)
+:Sending Touch (ACTION_DOWN): 0:(61.0,924.0)
+:Sending Touch (ACTION_UP): 0:(73.06749,928.654)
+:Sending Touch (ACTION_DOWN): 0:(571.0,1112.0)
+:Sending Touch (ACTION_UP): 0:(564.00555,1106.7382)
+:Sending Touch (ACTION_DOWN): 0:(28.0,1025.0)
+:Sending Touch (ACTION_UP): 0:(21.319382,1038.0186)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+    //[calendar_time:2023-05-17 00:16:10.687  system_uptime:94855054]
+    // Sending event #200
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(603.0,1428.0)
+:Sending Touch (ACTION_UP): 0:(604.054,1385.7987)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(238.0,582.0)
+:Sending Touch (ACTION_UP): 0:(299.35504,529.4125)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.contacts/com.android.contacts.activities.PeopleActivity mCallingUid=1000 } in package com.google.android.contacts
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(629.0,568.0)
+:Sending Touch (ACTION_UP): 0:(628.1078,568.55707)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+    //[calendar_time:2023-05-17 00:16:34.152  system_uptime:94878519]
+    // Sending event #300
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(717.0,1108.0)
+:Sending Touch (ACTION_UP): 0:(698.1027,1132.7854)
+:Sending Touch (ACTION_DOWN): 0:(710.0,296.0)
+:Sending Touch (ACTION_UP): 0:(709.239,295.71918)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(690.0,798.0)
+:Sending Touch (ACTION_UP): 0:(689.51746,785.75745)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(479.0,918.0)
+:Sending Touch (ACTION_UP): 0:(498.41794,868.60236)
+:Sending Touch (ACTION_DOWN): 0:(582.0,142.0)
+:Sending Touch (ACTION_UP): 0:(648.298,78.90736)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(551.0,388.0)
+:Sending Touch (ACTION_UP): 0:(460.25616,427.3889)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://userinfo?uid=1793049857&extparam=tabminivideo&mid=4901022273899959 pkg=com.sina.weibo cmp=com.sina.weibo/.page.ProfileInfoActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(385.0,326.0)
+:Sending Touch (ACTION_UP): 0:(365.08618,330.6113)
+:Sending Touch (ACTION_DOWN): 0:(23.0,920.0)
+:Sending Touch (ACTION_UP): 0:(27.160631,916.5895)
+    // Allowing start of Intent { cmp=com.sina.weibo/.video.tabcontainer.VideoTabContainerActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+    //[calendar_time:2023-05-17 00:17:02.561  system_uptime:94906929]
+    // Sending event #400
+:Sending Touch (ACTION_DOWN): 0:(70.0,55.0)
+:Sending Touch (ACTION_UP): 0:(33.151573,89.26169)
+:Sending Touch (ACTION_DOWN): 0:(316.0,342.0)
+:Sending Touch (ACTION_UP): 0:(252.77637,445.41962)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(25.0,487.0)
+:Sending Touch (ACTION_UP): 0:(44.84729,483.95984)
+:Sending Touch (ACTION_DOWN): 0:(400.0,261.0)
+:Sending Touch (ACTION_UP): 0:(403.8789,273.74622)
+:Sending Touch (ACTION_DOWN): 0:(541.0,981.0)
+:Sending Touch (ACTION_UP): 0:(552.23846,979.84406)
+:Sending Touch (ACTION_DOWN): 0:(541.0,882.0)
+:Sending Touch (ACTION_UP): 0:(550.5584,882.97943)
+:Sending Touch (ACTION_DOWN): 0:(4.0,779.0)
+:Sending Touch (ACTION_UP): 0:(49.75253,703.4579)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(171.0,1194.0)
+:Sending Touch (ACTION_UP): 0:(219.74327,1209.9254)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+    //[calendar_time:2023-05-17 00:17:29.455  system_uptime:94933822]
+    // Sending event #500
+:Sending Touch (ACTION_DOWN): 0:(438.0,1078.0)
+:Sending Touch (ACTION_UP): 0:(393.57468,1098.3228)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(672.0,776.0)
+:Sending Touch (ACTION_UP): 0:(619.89825,700.44684)
+    //[calendar_time:2023-05-17 00:17:48.006  system_uptime:94952373]
+    // Sending event #600
+    //[calendar_time:2023-05-17 00:17:49.008  system_uptime:94953375]
+    // Sending event #600
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher/.Launcher } in package com.android.launcher
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.oppo.quicksearchbox/com.oplus.globalsearch.ui.SearchActivity mCallingUid=10153 } in package com.oppo.quicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(628.0,1005.0)
+:Sending Touch (ACTION_UP): 0:(516.2647,944.1424)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.oppo.quicksearchbox/com.oplus.globalsearch.ui.SearchActivity mCallingUid=10153 } in package com.oppo.quicksearchbox
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher/.Launcher } in package com.android.launcher
+:Sending Touch (ACTION_DOWN): 0:(518.0,270.0)
+:Sending Touch (ACTION_UP): 0:(517.3706,273.67587)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.oppo.quicksearchbox/com.oplus.globalsearch.ui.SearchActivity mCallingUid=10153 } in package com.oppo.quicksearchbox
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher/.Launcher } in package com.android.launcher
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.coloros.gallery3d/.app.MainActivity mCallingUid=10153 } in package com.coloros.gallery3d
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+    // Allowing start of Intent { cmp=com.sina.weibo/.account.VisitorSignUpActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(538.0,1222.0)
+:Sending Touch (ACTION_UP): 0:(529.3346,1249.1808)
+:Sending Touch (ACTION_DOWN): 0:(654.0,1451.0)
+:Sending Touch (ACTION_UP): 0:(581.871,1456.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+    //[calendar_time:2023-05-17 00:18:23.822  system_uptime:94988189]
+    // Sending event #700
+    //[calendar_time:2023-05-17 00:18:24.824  system_uptime:94989191]
+    // Sending event #700
+:Sending Touch (ACTION_DOWN): 0:(401.0,567.0)
+:Sending Touch (ACTION_UP): 0:(381.5289,600.52264)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(338.0,1076.0)
+:Sending Touch (ACTION_UP): 0:(349.82697,1087.9791)
+:Sending Touch (ACTION_DOWN): 0:(135.0,930.0)
+:Sending Touch (ACTION_UP): 0:(132.53696,908.4273)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(209.0,435.0)
+:Sending Touch (ACTION_UP): 0:(202.76064,443.32935)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(710.0,1191.0)
+:Sending Touch (ACTION_UP): 0:(720.0,1236.2241)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(465.0,40.0)
+:Sending Touch (ACTION_UP): 0:(557.1119,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+    //[calendar_time:2023-05-17 00:18:47.705  system_uptime:95012073]
+    // Sending event #800
+    //[calendar_time:2023-05-17 00:18:48.707  system_uptime:95013074]
+    // Sending event #800
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(491.0,877.0)
+:Sending Touch (ACTION_UP): 0:(496.15344,819.49994)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(543.0,958.0)
+:Sending Touch (ACTION_UP): 0:(541.9227,956.709)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(260.0,264.0)
+:Sending Touch (ACTION_UP): 0:(278.68774,271.49646)
+:Sending Touch (ACTION_DOWN): 0:(712.0,82.0)
+:Sending Touch (ACTION_UP): 0:(718.0906,66.08221)
+    // Allowing start of Intent { act=com.sina.weibo.action_pic_in_pic cmp=com.sina.weibo/.windowplayer.pip.WBPicInPicActivity mCallingUid=10226 } in package com.sina.weibo
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(71.0,974.0)
+:Sending Touch (ACTION_UP): 0:(0.0,919.114)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(611.0,178.0)
+:Sending Touch (ACTION_UP): 0:(611.52875,168.97853)
+:Sending Touch (ACTION_DOWN): 0:(129.0,1247.0)
+:Sending Touch (ACTION_UP): 0:(136.95995,1254.5172)
+    //[calendar_time:2023-05-17 00:19:14.222  system_uptime:95038589]
+    // Sending event #900
+    // Allowing start of Intent { cmp=com.sina.weibo/.video.tabcontainer.VideoTabContainerActivity mCallingUid=10226 } in package com.sina.weibo
+    //[calendar_time:2023-05-17 00:19:15.227  system_uptime:95039594]
+    // Sending event #900
+:Sending Touch (ACTION_DOWN): 0:(313.0,462.0)
+:Sending Touch (ACTION_UP): 0:(315.80215,456.1174)
+:Sending Touch (ACTION_DOWN): 0:(80.0,1412.0)
+:Sending Touch (ACTION_UP): 0:(154.5502,1391.8657)
+:Sending Touch (ACTION_DOWN): 0:(572.0,818.0)
+:Sending Touch (ACTION_UP): 0:(553.77264,815.8575)
+:Sending Touch (ACTION_DOWN): 0:(521.0,596.0)
+:Sending Touch (ACTION_UP): 0:(520.6316,609.0196)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(254.0,825.0)
+:Sending Touch (ACTION_UP): 0:(266.58713,825.2078)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.calendar/com.android.calendar.AllInOneActivity mCallingUid=1000 } in package com.google.android.calendar
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(411.0,997.0)
+:Sending Touch (ACTION_UP): 0:(409.5614,998.11163)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+    //[calendar_time:2023-05-17 00:19:41.058  system_uptime:95065425]
+    // Sending event #1000
+:Sending Touch (ACTION_DOWN): 0:(85.0,45.0)
+:Sending Touch (ACTION_UP): 0:(48.398766,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(58.0,790.0)
+:Sending Touch (ACTION_UP): 0:(71.198395,794.16376)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(644.0,133.0)
+:Sending Touch (ACTION_UP): 0:(631.7319,113.48476)
+    // Allowing start of Intent { act=com.sina.weibo.action_pic_in_pic cmp=com.sina.weibo/.windowplayer.pip.WBPicInPicActivity mCallingUid=10226 } in package com.sina.weibo
+    // activityResuming(com.sina.weibo)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.contacts/com.android.contacts.activities.PeopleActivity mCallingUid=1000 } in package com.google.android.contacts
+:Sending Touch (ACTION_DOWN): 0:(19.0,57.0)
+:Sending Touch (ACTION_UP): 0:(101.55896,154.68329)
+:Sending Touch (ACTION_DOWN): 0:(201.0,704.0)
+:Sending Touch (ACTION_UP): 0:(201.10838,691.68805)
+    // Rejecting start of Intent { act=android.settings.APPLICATION_DEVELOPMENT_SETTINGS pkg=com.android.settings cmp=com.android.settings/.Settings$DevelopmentSettingsDashboardActivity mCallingUid=1000 } in package com.android.settings
+:Sending Touch (ACTION_DOWN): 0:(253.0,1213.0)
+:Sending Touch (ACTION_UP): 0:(270.60312,1213.1748)
+    // Allowing start of Intent { cmp=com.sina.weibo/.video.tabcontainer.VideoTabContainerActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(168.0,1142.0)
+:Sending Touch (ACTION_UP): 0:(157.72647,1142.0675)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(142.0,610.0)
+:Sending Touch (ACTION_UP): 0:(228.63982,568.84265)
+:Sending Touch (ACTION_DOWN): 0:(117.0,709.0)
+    //[calendar_time:2023-05-17 00:19:58.003  system_uptime:95082371]
+    // Sending event #1100
+:Sending Touch (ACTION_UP): 0:(100.19999,704.43054)
+:Sending Touch (ACTION_DOWN): 0:(166.0,588.0)
+:Sending Touch (ACTION_UP): 0:(175.94182,605.8295)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(687.0,934.0)
+:Sending Touch (ACTION_UP): 0:(696.81805,936.512)
+:Sending Touch (ACTION_DOWN): 0:(393.0,217.0)
+:Sending Touch (ACTION_UP): 0:(395.28714,217.21513)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(260.0,1087.0)
+:Sending Touch (ACTION_UP): 0:(270.06454,1087.5562)
+:Sending Touch (ACTION_DOWN): 0:(514.0,978.0)
+:Sending Touch (ACTION_UP): 0:(550.7843,1027.8285)
+:Sending Touch (ACTION_DOWN): 0:(343.0,588.0)
+:Sending Touch (ACTION_UP): 0:(354.09088,595.98804)
+:Sending Touch (ACTION_DOWN): 0:(270.0,677.0)
+:Sending Touch (ACTION_UP): 0:(266.8316,654.7146)
+:Sending Touch (ACTION_DOWN): 0:(641.0,897.0)
+:Sending Touch (ACTION_UP): 0:(658.5384,894.2026)
+:Sending Touch (ACTION_DOWN): 0:(678.0,1227.0)
+:Sending Touch (ACTION_UP): 0:(688.108,1250.4487)
+:Sending Touch (ACTION_DOWN): 0:(554.0,36.0)
+:Sending Touch (ACTION_UP): 0:(542.1538,44.94867)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+    //[calendar_time:2023-05-17 00:20:27.561  system_uptime:95111928]
+    // Sending event #1200
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(521.0,558.0)
+:Sending Touch (ACTION_UP): 0:(518.9066,554.4889)
+:Sending Touch (ACTION_DOWN): 0:(157.0,167.0)
+:Sending Touch (ACTION_UP): 0:(162.00192,159.91219)
+:Sending Touch (ACTION_DOWN): 0:(526.0,152.0)
+:Sending Touch (ACTION_UP): 0:(557.6867,107.18356)
+:Sending Touch (ACTION_DOWN): 0:(683.0,345.0)
+:Sending Touch (ACTION_UP): 0:(720.0,306.13593)
+:Sending Touch (ACTION_DOWN): 0:(519.0,704.0)
+:Sending Touch (ACTION_UP): 0:(508.20242,698.89014)
+:Sending Touch (ACTION_DOWN): 0:(636.0,168.0)
+:Sending Touch (ACTION_UP): 0:(584.1993,189.52034)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://userinfo?uid=1793049857&extparam=tabminivideo&mid=4902185856928742 pkg=com.sina.weibo cmp=com.sina.weibo/.page.ProfileInfoActivity mCallingUid=10226 } in package com.sina.weibo
+    // Allowing start of Intent { act=com.sina.weibo.action_pic_in_pic cmp=com.sina.weibo/.windowplayer.pip.WBPicInPicActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(174.0,298.0)
+:Sending Touch (ACTION_UP): 0:(168.49582,295.25067)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+    //[calendar_time:2023-05-17 00:20:50.780  system_uptime:95135148]
+    // Sending event #1300
+:Sending Touch (ACTION_DOWN): 0:(634.0,96.0)
+:Sending Touch (ACTION_UP): 0:(638.8901,88.51165)
+:Sending Touch (ACTION_DOWN): 0:(249.0,285.0)
+:Sending Touch (ACTION_UP): 0:(242.30211,284.48444)
+:Sending Touch (ACTION_DOWN): 0:(22.0,644.0)
+:Sending Touch (ACTION_UP): 0:(40.16555,643.6199)
+:Sending Touch (ACTION_DOWN): 0:(243.0,113.0)
+:Sending Touch (ACTION_UP): 0:(160.58606,10.726889)
+    // Allowing start of Intent { dat=https://v6.bang.weibo.com/... pkg=com.sina.weibo cmp=com.sina.weibo/.browser.WeiboBrowser mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(373.0,592.0)
+:Sending Touch (ACTION_UP): 0:(375.931,586.56934)
+:Sending Touch (ACTION_DOWN): 0:(315.0,472.0)
+:Sending Touch (ACTION_UP): 0:(312.24997,481.3314)
+:Sending Touch (ACTION_DOWN): 0:(583.0,1115.0)
+:Sending Touch (ACTION_UP): 0:(569.0838,1118.0808)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(169.0,16.0)
+:Sending Touch (ACTION_UP): 0:(116.63023,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(30.0,338.0)
+:Sending Touch (ACTION_UP): 0:(40.436764,338.69418)
+:Sending Touch (ACTION_DOWN): 0:(370.0,381.0)
+:Sending Touch (ACTION_UP): 0:(371.09747,373.07516)
+:Sending Touch (ACTION_DOWN): 0:(645.0,1134.0)
+:Sending Touch (ACTION_UP): 0:(642.26794,1125.1688)
+:Sending Touch (ACTION_DOWN): 0:(197.0,892.0)
+:Sending Touch (ACTION_UP): 0:(248.11087,911.76245)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(210.0,754.0)
+    //[calendar_time:2023-05-17 00:21:19.826  system_uptime:95164193]
+    // Sending event #1400
+:Sending Touch (ACTION_UP): 0:(228.83614,767.2294)
+:Sending Touch (ACTION_DOWN): 0:(394.0,606.0)
+:Sending Touch (ACTION_UP): 0:(402.89285,619.8436)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://userinfo?uid=1793049857 pkg=com.sina.weibo cmp=com.sina.weibo/.page.ProfileInfoActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(593.0,329.0)
+:Sending Touch (ACTION_UP): 0:(592.9827,334.00323)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(681.0,52.0)
+:Sending Touch (ACTION_UP): 0:(547.0389,93.3745)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(353.0,1197.0)
+:Sending Touch (ACTION_UP): 0:(363.2409,1205.2944)
+    // Allowing start of Intent { cmp=com.sina.weibo/.photoalbum.imageviewer.ImageViewer mCallingUid=10226 } in package com.sina.weibo
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(535.0,874.0)
+:Sending Touch (ACTION_UP): 0:(493.73193,927.6945)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+    //[calendar_time:2023-05-17 00:21:40.440  system_uptime:95184807]
+    // Sending event #1500
+:Sending Touch (ACTION_DOWN): 0:(416.0,490.0)
+:Sending Touch (ACTION_UP): 0:(415.7568,493.95712)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(281.0,1285.0)
+:Sending Touch (ACTION_UP): 0:(277.8265,1263.0258)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(480.0,153.0)
+:Sending Touch (ACTION_UP): 0:(479.74832,170.42151)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(413.0,617.0)
+:Sending Touch (ACTION_UP): 0:(326.65686,545.431)
+    //[calendar_time:2023-05-17 00:22:05.112  system_uptime:95209479]
+    // Sending event #1600
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(672.0,1093.0)
+:Sending Touch (ACTION_UP): 0:(648.54193,1153.524)
+:Sending Touch (ACTION_DOWN): 0:(556.0,102.0)
+:Sending Touch (ACTION_UP): 0:(555.7452,100.60476)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(672.0,721.0)
+:Sending Touch (ACTION_UP): 0:(690.1867,720.4229)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(34.0,1089.0)
+:Sending Touch (ACTION_UP): 0:(5.3436413,1124.266)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(658.0,1286.0)
+:Sending Touch (ACTION_UP): 0:(670.00653,1257.6124)
+:Sending Touch (ACTION_DOWN): 0:(216.0,1385.0)
+:Sending Touch (ACTION_UP): 0:(213.03448,1382.8673)
+    // Allowing start of Intent { cmp=com.sina.weibo/.feed.DetailWeiboActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(41.0,150.0)
+:Sending Touch (ACTION_UP): 0:(18.63055,176.19524)
+:Sending Touch (ACTION_DOWN): 0:(448.0,1100.0)
+:Sending Touch (ACTION_UP): 0:(455.13098,1081.097)
+:Sending Touch (ACTION_DOWN): 0:(708.0,928.0)
+:Sending Touch (ACTION_UP): 0:(663.5406,919.63367)
+    //[calendar_time:2023-05-17 00:22:27.589  system_uptime:95231956]
+    // Sending event #1700
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(634.0,142.0)
+:Sending Touch (ACTION_UP): 0:(550.25714,237.0386)
+:Sending Touch (ACTION_DOWN): 0:(212.0,1444.0)
+:Sending Touch (ACTION_UP): 0:(242.24086,1352.637)
+:Sending Touch (ACTION_DOWN): 0:(26.0,1186.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1166.6582)
+:Sending Touch (ACTION_DOWN): 0:(162.0,1281.0)
+:Sending Touch (ACTION_UP): 0:(221.2485,1258.5126)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(222.0,1163.0)
+:Sending Touch (ACTION_UP): 0:(221.5798,1149.7906)
+:Sending Touch (ACTION_DOWN): 0:(86.0,1294.0)
+:Sending Touch (ACTION_UP): 0:(93.341354,1329.0352)
+:Sending Touch (ACTION_DOWN): 0:(286.0,1120.0)
+:Sending Touch (ACTION_UP): 0:(287.04486,1132.9359)
+    // Allowing start of Intent { cmp=com.sina.weibo/.video.tabcontainer.VideoTabContainerActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+    //[calendar_time:2023-05-17 00:22:50.315  system_uptime:95254682]
+    // Sending event #1800
+:Sending Touch (ACTION_DOWN): 0:(83.0,1324.0)
+:Sending Touch (ACTION_UP): 0:(83.93095,1327.4067)
+    // Allowing start of Intent { cmp=com.sina.weibo/.story.gallery.feed.StoryFeedCommentsActivity2 mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(205.0,764.0)
+:Sending Touch (ACTION_UP): 0:(224.96852,748.5782)
+:Sending Touch (ACTION_DOWN): 0:(614.0,714.0)
+:Sending Touch (ACTION_UP): 0:(601.49524,713.8884)
+:Sending Touch (ACTION_DOWN): 0:(462.0,735.0)
+:Sending Touch (ACTION_UP): 0:(414.17874,660.8912)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(439.0,691.0)
+:Sending Touch (ACTION_UP): 0:(439.6939,625.2129)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(494.0,1029.0)
+:Sending Touch (ACTION_UP): 0:(531.0137,1073.2914)
+:Sending Touch (ACTION_DOWN): 0:(444.0,266.0)
+:Sending Touch (ACTION_UP): 0:(452.81512,272.82532)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(490.0,393.0)
+:Sending Touch (ACTION_UP): 0:(421.30844,374.8385)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://userinfo?uid=2266871657&extparam=tabminivideo&mid=4901551980413771 pkg=com.sina.weibo cmp=com.sina.weibo/.page.ProfileInfoActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher/.Launcher } in package com.android.launcher
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+    //[calendar_time:2023-05-17 00:23:15.288  system_uptime:95279656]
+    // Sending event #1900
+:Sending Touch (ACTION_DOWN): 0:(598.0,832.0)
+:Sending Touch (ACTION_UP): 0:(565.64075,857.31976)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(106.0,761.0)
+:Sending Touch (ACTION_UP): 0:(106.26562,755.57)
+:Sending Touch (ACTION_DOWN): 0:(507.0,437.0)
+:Sending Touch (ACTION_UP): 0:(517.2584,426.47202)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.heytap.music/com.nearme.music.splash.SplashActivity mCallingUid=10153 } in package com.heytap.music
+:Sending Touch (ACTION_DOWN): 0:(285.0,586.0)
+:Sending Touch (ACTION_UP): 0:(289.19543,594.33)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=10153 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(75.0,1002.0)
+:Sending Touch (ACTION_UP): 0:(80.0486,1008.2004)
+    // Allowing start of Intent { cmp=com.sina.weibo/.video.tabcontainer.VideoTabContainerActivity mCallingUid=10226 } in package com.sina.weibo
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(134.0,67.0)
+:Sending Touch (ACTION_UP): 0:(167.64919,1.1623046)
+:Sending Touch (ACTION_DOWN): 0:(708.0,1275.0)
+:Sending Touch (ACTION_UP): 0:(717.01166,1268.75)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(714.0,112.0)
+    //[calendar_time:2023-05-17 00:23:37.023  system_uptime:95301390]
+    // Sending event #2000
+:Sending Touch (ACTION_UP): 0:(720.0,88.090454)
+:Sending Touch (ACTION_DOWN): 0:(181.0,717.0)
+:Sending Touch (ACTION_UP): 0:(180.75952,714.7953)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(643.0,588.0)
+:Sending Touch (ACTION_UP): 0:(616.6832,603.07947)
+:Sending Touch (ACTION_DOWN): 0:(688.0,1272.0)
+:Sending Touch (ACTION_UP): 0:(686.4001,1270.3291)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://halfscreencomposercontainer pkg=com.sina.weibo cmp=com.sina.weibo/.feed.detail.composer.ComposerActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(459.0,904.0)
+:Sending Touch (ACTION_UP): 0:(450.81317,900.2636)
+    // activityResuming(com.sina.weibo)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+    //[calendar_time:2023-05-17 00:23:58.102  system_uptime:95322469]
+    // Sending event #2100
+:Sending Touch (ACTION_DOWN): 0:(686.0,73.0)
+:Sending Touch (ACTION_UP): 0:(678.7247,82.59579)
+:Sending Touch (ACTION_DOWN): 0:(679.0,836.0)
+:Sending Touch (ACTION_UP): 0:(656.21545,830.14197)
+:Sending Touch (ACTION_DOWN): 0:(310.0,1315.0)
+:Sending Touch (ACTION_UP): 0:(303.96527,1314.299)
+    // Allowing start of Intent { cmp=com.sina.weibo/.story.gallery.feed.StoryFeedCommentsActivity2 mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(416.0,1093.0)
+:Sending Touch (ACTION_UP): 0:(408.05017,1088.6951)
+:Sending Touch (ACTION_DOWN): 0:(190.0,529.0)
+:Sending Touch (ACTION_UP): 0:(175.9738,535.8512)
+:Sending Touch (ACTION_DOWN): 0:(293.0,533.0)
+:Sending Touch (ACTION_UP): 0:(310.7897,532.1181)
+:Sending Touch (ACTION_DOWN): 0:(94.0,1026.0)
+:Sending Touch (ACTION_UP): 0:(114.45969,1019.56476)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://detailBulletinComment?comment_id=4901906587844913&is_show_bulletin=2&root_comment_from=detail_weibo&anchor_id=4901925495507091&gid=4901925495507091&oid=1034:4901551899344933&comment_source=vvs pkg=com.sina.weibo cmp=com.sina.weibo/.feed.SubCommentActiity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(11.0,215.0)
+:Sending Touch (ACTION_UP): 0:(15.961682,160.32607)
+:Sending Touch (ACTION_DOWN): 0:(105.0,1364.0)
+:Sending Touch (ACTION_UP): 0:(105.67394,1360.6981)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(588.0,265.0)
+:Sending Touch (ACTION_UP): 0:(598.58014,263.41293)
+    // Allowing start of Intent { cmp=com.sina.weibo/.account.VisitorSignUpActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(605.0,636.0)
+:Sending Touch (ACTION_UP): 0:(605.3157,648.9798)
+    // activityResuming(com.sina.weibo)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(590.0,720.0)
+:Sending Touch (ACTION_UP): 0:(621.23737,769.1432)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+    //[calendar_time:2023-05-17 00:24:24.504  system_uptime:95348871]
+    // Sending event #2200
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(251.0,150.0)
+:Sending Touch (ACTION_UP): 0:(238.22783,161.57181)
+:Sending Touch (ACTION_DOWN): 0:(139.0,1225.0)
+:Sending Touch (ACTION_UP): 0:(134.76822,1204.5984)
+:Sending Touch (ACTION_DOWN): 0:(56.0,192.0)
+:Sending Touch (ACTION_UP): 0:(39.559208,122.42601)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher/.Launcher } in package com.android.launcher
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.facebook.katana/.LoginActivity mCallingUid=10153 } in package com.facebook.katana
+:Sending Touch (ACTION_DOWN): 0:(548.0,1077.0)
+:Sending Touch (ACTION_UP): 0:(543.76843,1077.2247)
+:Sending Touch (ACTION_DOWN): 0:(261.0,180.0)
+:Sending Touch (ACTION_UP): 0:(260.44937,171.9417)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.coloros.alarmclock/.AlarmClock mCallingUid=10153 } in package com.coloros.alarmclock
+:Sending Touch (ACTION_DOWN): 0:(481.0,1396.0)
+:Sending Touch (ACTION_UP): 0:(444.78925,1442.1602)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.chrome/com.google.android.apps.chrome.Main mCallingUid=10153 } in package com.android.chrome
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(107.0,848.0)
+:Sending Touch (ACTION_UP): 0:(168.66393,892.1543)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(89.0,691.0)
+:Sending Touch (ACTION_UP): 0:(130.46007,684.7047)
+:Sending Touch (ACTION_DOWN): 0:(451.0,1300.0)
+:Sending Touch (ACTION_UP): 0:(499.40054,1296.7758)
+:Sending Touch (ACTION_DOWN): 0:(208.0,988.0)
+    //[calendar_time:2023-05-17 00:24:49.915  system_uptime:95374282]
+    // Sending event #2300
+:Sending Touch (ACTION_UP): 0:(236.71939,964.7553)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(131.0,238.0)
+:Sending Touch (ACTION_UP): 0:(90.68883,308.307)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(368.0,286.0)
+:Sending Touch (ACTION_UP): 0:(373.46198,282.90915)
+    // Allowing start of Intent { cmp=com.sina.weibo/.account.VisitorSignUpActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(350.0,1177.0)
+:Sending Touch (ACTION_UP): 0:(346.14688,1173.8651)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(601.0,521.0)
+:Sending Touch (ACTION_UP): 0:(604.2231,537.5425)
+    // Allowing start of Intent { cmp=com.sina.weibo/.account.VisitorSignUpActivity mCallingUid=10226 } in package com.sina.weibo
+    //[calendar_time:2023-05-17 00:25:08.209  system_uptime:95392577]
+    // Sending event #2400
+:Sending Touch (ACTION_DOWN): 0:(437.0,527.0)
+:Sending Touch (ACTION_UP): 0:(448.43405,517.3869)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(224.0,1132.0)
+:Sending Touch (ACTION_UP): 0:(128.83183,1101.8502)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(341.0,574.0)
+:Sending Touch (ACTION_UP): 0:(344.51324,587.957)
+    // Allowing start of Intent { cmp=com.sina.weibo/.account.VisitorSignUpActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(446.0,632.0)
+:Sending Touch (ACTION_UP): 0:(444.74924,631.08215)
+    // activityResuming(com.sina.weibo)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+    //[calendar_time:2023-05-17 00:25:29.706  system_uptime:95414073]
+    // Sending event #2500
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(659.0,1113.0)
+:Sending Touch (ACTION_UP): 0:(616.9995,1128.8163)
+:Sending Touch (ACTION_DOWN): 0:(381.0,1141.0)
+:Sending Touch (ACTION_UP): 0:(393.32657,1154.8413)
+:Sending Touch (ACTION_DOWN): 0:(400.0,495.0)
+:Sending Touch (ACTION_UP): 0:(397.27814,428.11548)
+:Sending Touch (ACTION_DOWN): 0:(233.0,12.0)
+:Sending Touch (ACTION_UP): 0:(232.336,24.240036)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Rejecting start of Intent { act=android.speech.action.WEB_SEARCH cmp=com.google.android.googlequicksearchbox/.AssistantIntentsGatewayInternal mCallingUid=1000 } in package com.google.android.googlequicksearchbox
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(196.0,1225.0)
+:Sending Touch (ACTION_UP): 0:(185.8,1211.7351)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(327.0,1350.0)
+:Sending Touch (ACTION_UP): 0:(330.31195,1339.5146)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+    //[calendar_time:2023-05-17 00:25:52.049  system_uptime:95436416]
+    // Sending event #2600
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(559.0,464.0)
+:Sending Touch (ACTION_UP): 0:(558.5238,473.25528)
+:Sending Touch (ACTION_DOWN): 0:(402.0,198.0)
+:Sending Touch (ACTION_UP): 0:(400.95624,195.42735)
+    // Allowing start of Intent { cmp=com.sina.weibo/.account.VisitorSignUpActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(717.0,1427.0)
+:Sending Touch (ACTION_UP): 0:(720.0,1439.8079)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(63.0,590.0)
+:Sending Touch (ACTION_UP): 0:(75.4603,582.7848)
+    // Allowing start of Intent { cmp=com.sina.weibo/.page.ProfileInfoActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(187.0,1000.0)
+:Sending Touch (ACTION_UP): 0:(191.38205,1000.2679)
+:Sending Touch (ACTION_DOWN): 0:(334.0,1121.0)
+:Sending Touch (ACTION_UP): 0:(339.69913,1121.8776)
+    // Allowing start of Intent { cmp=com.sina.weibo/.photoalbum.imageviewer.ImageViewer mCallingUid=10226 } in package com.sina.weibo
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(202.0,968.0)
+:Sending Touch (ACTION_UP): 0:(206.16757,966.6079)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(162.0,783.0)
+:Sending Touch (ACTION_UP): 0:(171.14575,793.4404)
+    // Allowing start of Intent { dat=sinaweibo://cardlist?containerid=2310025112314458_-_HOTMBLOG pkg=com.sina.weibo cmp=com.sina.weibo/.page.NewCardListActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(262.0,1269.0)
+:Sending Touch (ACTION_UP): 0:(317.4914,1172.0)
+:Sending Touch (ACTION_DOWN): 0:(665.0,19.0)
+:Sending Touch (ACTION_UP): 0:(671.8339,26.45594)
+:Sending Touch (ACTION_DOWN): 0:(350.0,42.0)
+:Sending Touch (ACTION_UP): 0:(368.26352,42.974915)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+    //[calendar_time:2023-05-17 00:26:18.822  system_uptime:95463190]
+    // Sending event #2700
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(631.0,1300.0)
+:Sending Touch (ACTION_UP): 0:(582.0652,1184.0332)
+:Sending Touch (ACTION_DOWN): 0:(209.0,113.0)
+:Sending Touch (ACTION_UP): 0:(243.75023,138.03122)
+:Sending Touch (ACTION_DOWN): 0:(428.0,1429.0)
+:Sending Touch (ACTION_UP): 0:(429.133,1430.8633)
+    // Allowing start of Intent { cmp=com.sina.weibo/.account.VisitorSignUpActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(93.0,568.0)
+:Sending Touch (ACTION_UP): 0:(94.06687,568.7802)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(616.0,271.0)
+:Sending Touch (ACTION_UP): 0:(636.58484,268.81793)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://detail?mblogid=MvoPXd0NP pkg=com.sina.weibo cmp=com.sina.weibo/.feed.DetailWeiboActivity mCallingUid=10226 } in package com.sina.weibo
+    // activityResuming(com.sina.weibo)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+    // Allowing start of Intent { cmp=com.sina.weibo/.account.VisitorSignUpActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(385.0,917.0)
+:Sending Touch (ACTION_UP): 0:(385.37064,922.5231)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+    //[calendar_time:2023-05-17 00:26:36.137  system_uptime:95480504]
+    // Sending event #2800
+:Sending Touch (ACTION_DOWN): 0:(150.0,1174.0)
+:Sending Touch (ACTION_UP): 0:(170.78545,1087.7865)
+:Sending Touch (ACTION_DOWN): 0:(65.0,474.0)
+:Sending Touch (ACTION_UP): 0:(94.94204,469.3799)
+    // Allowing start of Intent { cmp=com.sina.weibo/.account.SelectCountryActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(595.0,189.0)
+:Sending Touch (ACTION_UP): 0:(609.2159,177.55128)
+:Sending Touch (ACTION_DOWN): 0:(120.0,1432.0)
+:Sending Touch (ACTION_UP): 0:(189.77646,1456.0)
+    // Rejecting start of Intent { act=com.android.intent.action.SHOW_BRIGHTNESS_DIALOG cmp=com.android.systemui/.settings.brightness.BrightnessDialog mCallingUid=1000 } in package com.android.systemui
+:Sending Touch (ACTION_DOWN): 0:(304.0,152.0)
+:Sending Touch (ACTION_UP): 0:(272.05478,180.39668)
+:Sending Touch (ACTION_DOWN): 0:(422.0,14.0)
+:Sending Touch (ACTION_UP): 0:(421.58994,21.610207)
+:Sending Touch (ACTION_DOWN): 0:(477.0,863.0)
+:Sending Touch (ACTION_UP): 0:(486.05704,862.4961)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(572.0,1063.0)
+:Sending Touch (ACTION_UP): 0:(503.7089,969.95184)
+:Sending Touch (ACTION_DOWN): 0:(341.0,762.0)
+:Sending Touch (ACTION_UP): 0:(351.8271,779.5723)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+    //[calendar_time:2023-05-17 00:27:02.472  system_uptime:95506839]
+    // Sending event #2900
+    //[calendar_time:2023-05-17 00:27:03.473  system_uptime:95507841]
+    // Sending event #2900
+:Sending Touch (ACTION_DOWN): 0:(507.0,669.0)
+:Sending Touch (ACTION_UP): 0:(506.86102,672.165)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(574.0,197.0)
+:Sending Touch (ACTION_UP): 0:(575.4691,191.96867)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://detail?mblogid=MvoPXd0NP pkg=com.sina.weibo cmp=com.sina.weibo/.feed.DetailWeiboActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(3.0,1151.0)
+:Sending Touch (ACTION_UP): 0:(16.649645,1156.197)
+:Sending Touch (ACTION_DOWN): 0:(237.0,1226.0)
+:Sending Touch (ACTION_UP): 0:(246.77467,1160.2942)
+:Sending Touch (ACTION_DOWN): 0:(44.0,103.0)
+:Sending Touch (ACTION_UP): 0:(33.369095,113.910866)
+    // activityResuming(com.sina.weibo)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(188.0,855.0)
+:Sending Touch (ACTION_UP): 0:(184.26907,850.7144)
+    // Allowing start of Intent { cmp=com.sina.weibo/.page.ProfileInfoActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(215.0,620.0)
+:Sending Touch (ACTION_UP): 0:(212.93156,611.2754)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(662.0,1033.0)
+:Sending Touch (ACTION_UP): 0:(663.3889,1034.0938)
+:Sending Touch (ACTION_DOWN): 0:(634.0,160.0)
+:Sending Touch (ACTION_UP): 0:(637.79095,160.64572)
+:Sending Touch (ACTION_DOWN): 0:(531.0,234.0)
+:Sending Touch (ACTION_UP): 0:(553.4008,226.77362)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] pkg=com.android.launcher cmp=com.android.launcher/.Launcher mCallingUid=10153 } in package com.android.launcher
+:Sending Touch (ACTION_DOWN): 0:(93.0,801.0)
+:Sending Touch (ACTION_UP): 0:(96.27355,812.7775)
+:Sending Touch (ACTION_DOWN): 0:(255.0,730.0)
+:Sending Touch (ACTION_UP): 0:(256.22025,753.4424)
+:Sending Touch (ACTION_DOWN): 0:(499.0,113.0)
+:Sending Touch (ACTION_UP): 0:(440.33893,40.146328)
+:Sending Touch (ACTION_DOWN): 0:(386.0,1400.0)
+    //[calendar_time:2023-05-17 00:27:32.979  system_uptime:95537346]
+    // Sending event #3000
+:Sending Touch (ACTION_UP): 0:(391.77344,1351.0901)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.oppo.quicksearchbox/com.oplus.globalsearch.ui.SearchActivity mCallingUid=10153 } in package com.oppo.quicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(71.0,1265.0)
+:Sending Touch (ACTION_UP): 0:(80.21414,1278.3824)
+:Sending Touch (ACTION_DOWN): 0:(114.0,1353.0)
+:Sending Touch (ACTION_UP): 0:(114.612175,1351.1327)
+:Sending Touch (ACTION_DOWN): 0:(318.0,727.0)
+:Sending Touch (ACTION_UP): 0:(323.92496,726.75854)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(417.0,493.0)
+:Sending Touch (ACTION_UP): 0:(422.30704,492.76288)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.oppo.quicksearchbox/com.oplus.globalsearch.ui.SearchActivity mCallingUid=10153 } in package com.oppo.quicksearchbox
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.facebook.katana/.LoginActivity mCallingUid=10153 } in package com.facebook.katana
+    // Rejecting start of Intent { act=android.speech.action.WEB_SEARCH cmp=com.google.android.googlequicksearchbox/.AssistantIntentsGatewayInternal mCallingUid=1000 } in package com.google.android.googlequicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(147.0,155.0)
+:Sending Touch (ACTION_UP): 0:(154.72531,152.70656)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.heytap.music/com.nearme.music.splash.SplashActivity mCallingUid=10153 } in package com.heytap.music
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.heytap.music/com.nearme.music.splash.SplashActivity mCallingUid=10153 } in package com.heytap.music
+:Sending Touch (ACTION_DOWN): 0:(140.0,916.0)
+:Sending Touch (ACTION_UP): 0:(150.92096,916.0361)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+    //[calendar_time:2023-05-17 00:28:00.402  system_uptime:95564769]
+    // Sending event #3100
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.facebook.katana/.LoginActivity mCallingUid=10153 } in package com.facebook.katana
+:Sending Touch (ACTION_DOWN): 0:(439.0,28.0)
+:Sending Touch (ACTION_UP): 0:(509.96744,0.0)
+:Sending Touch (ACTION_DOWN): 0:(295.0,1076.0)
+:Sending Touch (ACTION_UP): 0:(299.3495,1065.731)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(178.0,1109.0)
+:Sending Touch (ACTION_UP): 0:(188.97888,1113.7705)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(73.0,395.0)
+:Sending Touch (ACTION_UP): 0:(149.19206,387.9568)
+:Sending Touch (ACTION_DOWN): 0:(566.0,1025.0)
+:Sending Touch (ACTION_UP): 0:(586.46936,980.60126)
+:Sending Touch (ACTION_DOWN): 0:(673.0,36.0)
+:Sending Touch (ACTION_UP): 0:(673.5478,45.218826)
+:Sending Touch (ACTION_DOWN): 0:(304.0,1208.0)
+:Sending Touch (ACTION_UP): 0:(347.12976,1117.7776)
+:Sending Touch (ACTION_DOWN): 0:(7.0,380.0)
+:Sending Touch (ACTION_UP): 0:(36.60034,381.03595)
+:Sending Touch (ACTION_DOWN): 0:(418.0,605.0)
+:Sending Touch (ACTION_UP): 0:(427.15002,600.83136)
+    // Allowing start of Intent { cmp=com.sina.weibo/.photoalbum.imageviewer.ImageViewer mCallingUid=10226 } in package com.sina.weibo
+    //[calendar_time:2023-05-17 00:28:27.771  system_uptime:95592138]
+    // Sending event #3200
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(336.0,1441.0)
+:Sending Touch (ACTION_UP): 0:(318.00455,1437.3972)
+    // Allowing start of Intent { cmp=com.sina.weibo/.composerinde.ComposerDispatchActivity mCallingUid=10226 } in package com.sina.weibo
+    // Allowing start of Intent { cmp=com.sina.weibo/.composerinde.ForwardComposerActivity mCallingUid=10226 } in package com.sina.weibo
+    // activityResuming(com.sina.weibo)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(303.0,1293.0)
+:Sending Touch (ACTION_UP): 0:(318.42386,1291.4169)
+:Sending Touch (ACTION_DOWN): 0:(510.0,745.0)
+:Sending Touch (ACTION_UP): 0:(511.2818,749.3522)
+:Sending Touch (ACTION_DOWN): 0:(140.0,777.0)
+:Sending Touch (ACTION_UP): 0:(141.99352,778.356)
+:Sending Touch (ACTION_DOWN): 0:(477.0,923.0)
+:Sending Touch (ACTION_UP): 0:(477.26172,914.6312)
+:Sending Touch (ACTION_DOWN): 0:(378.0,799.0)
+:Sending Touch (ACTION_UP): 0:(377.96304,836.0223)
+:Sending Touch (ACTION_DOWN): 0:(577.0,177.0)
+:Sending Touch (ACTION_UP): 0:(610.2351,150.42496)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+    //[calendar_time:2023-05-17 00:28:45.602  system_uptime:95609969]
+    // Sending event #3300
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(640.0,673.0)
+:Sending Touch (ACTION_UP): 0:(686.06854,705.76587)
+:Sending Touch (ACTION_DOWN): 0:(429.0,1045.0)
+:Sending Touch (ACTION_UP): 0:(435.7626,1059.6156)
+:Sending Touch (ACTION_DOWN): 0:(17.0,576.0)
+:Sending Touch (ACTION_UP): 0:(41.32375,464.44614)
+:Sending Touch (ACTION_DOWN): 0:(468.0,866.0)
+:Sending Touch (ACTION_UP): 0:(420.7935,911.5021)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://mppopupwindow?wbx_hide_close_btn=true&wbx_bg_view_dismiss=true&scheme=sinaweibo://wbox?id=n1htatg0fm&page=pages/cashier/cashier&cashier_id=137&F=tq_qutu_fbq pkg=com.sina.weibo cmp=com.sina.weibo/.wbox.popupwindow.activity.WBXDialogActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(134.0,1276.0)
+:Sending Touch (ACTION_UP): 0:(73.15356,1230.7982)
+:Sending Touch (ACTION_DOWN): 0:(272.0,697.0)
+:Sending Touch (ACTION_UP): 0:(269.91907,700.7118)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+    // activityResuming(com.sina.weibo)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(250.0,1159.0)
+:Sending Touch (ACTION_UP): 0:(359.1085,1213.1992)
+    //[calendar_time:2023-05-17 00:29:02.914  system_uptime:95627281]
+    // Sending event #3400
+:Sending Touch (ACTION_DOWN): 0:(582.0,1164.0)
+:Sending Touch (ACTION_UP): 0:(672.0356,1088.8947)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(374.0,1185.0)
+:Sending Touch (ACTION_UP): 0:(357.63348,1145.2489)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher/.Launcher } in package com.android.launcher
+:Sending Touch (ACTION_DOWN): 0:(12.0,1210.0)
+:Sending Touch (ACTION_UP): 0:(0.0,1214.187)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.oppo.quicksearchbox/com.oplus.globalsearch.ui.SearchActivity mCallingUid=10153 } in package com.oppo.quicksearchbox
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.vending/.AssetBrowserActivity mCallingUid=10153 } in package com.android.vending
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.vending/.AssetBrowserActivity mCallingUid=10153 } in package com.android.vending
+:Sending Touch (ACTION_DOWN): 0:(266.0,88.0)
+:Sending Touch (ACTION_UP): 0:(298.36816,118.58055)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.oppo.quicksearchbox/com.oplus.globalsearch.ui.SearchActivity mCallingUid=10153 } in package com.oppo.quicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(366.0,1143.0)
+:Sending Touch (ACTION_UP): 0:(361.73627,1162.0171)
+:Sending Touch (ACTION_DOWN): 0:(425.0,1403.0)
+:Sending Touch (ACTION_UP): 0:(445.1964,1375.92)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.chrome/com.google.android.apps.chrome.Main mCallingUid=10153 } in package com.android.chrome
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.oppo.quicksearchbox/com.oplus.globalsearch.ui.SearchActivity mCallingUid=10153 } in package com.oppo.quicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(673.0,381.0)
+:Sending Touch (ACTION_UP): 0:(673.09174,383.55032)
+:Sending Touch (ACTION_DOWN): 0:(94.0,694.0)
+:Sending Touch (ACTION_UP): 0:(25.128304,671.84357)
+:Sending Touch (ACTION_DOWN): 0:(692.0,1419.0)
+:Sending Touch (ACTION_UP): 0:(701.83344,1384.0385)
+:Sending Touch (ACTION_DOWN): 0:(183.0,286.0)
+:Sending Touch (ACTION_UP): 0:(178.79597,296.37726)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+    //[calendar_time:2023-05-17 00:29:30.359  system_uptime:95654726]
+    // Sending event #3500
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.oppo.quicksearchbox/com.oplus.globalsearch.ui.SearchActivity mCallingUid=10153 } in package com.oppo.quicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(474.0,1165.0)
+:Sending Touch (ACTION_UP): 0:(523.21265,1182.069)
+:Sending Touch (ACTION_DOWN): 0:(519.0,165.0)
+:Sending Touch (ACTION_UP): 0:(524.1635,183.09644)
+:Sending Touch (ACTION_DOWN): 0:(275.0,596.0)
+:Sending Touch (ACTION_UP): 0:(286.59433,589.6204)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+    // Rejecting start of Intent { act=oplus.intent.action.settings.VOICE_ASSIST_GUIDE pkg=com.android.settings cmp=com.android.settings/com.oplus.settings.feature.convenient.PowerWakeUpGuideActivity mCallingUid=1000 } in package com.android.settings
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(355.0,510.0)
+:Sending Touch (ACTION_UP): 0:(369.33228,502.94498)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(630.0,1433.0)
+:Sending Touch (ACTION_UP): 0:(569.4012,1455.9724)
+:Sending Touch (ACTION_DOWN): 0:(509.0,106.0)
+:Sending Touch (ACTION_UP): 0:(532.4136,103.80372)
+:Sending Touch (ACTION_DOWN): 0:(242.0,711.0)
+:Sending Touch (ACTION_UP): 0:(252.00877,714.10345)
+:Sending Touch (ACTION_DOWN): 0:(454.0,1337.0)
+:Sending Touch (ACTION_UP): 0:(423.47928,1282.8875)
+    //[calendar_time:2023-05-17 00:29:54.789  system_uptime:95679156]
+    // Sending event #3600
+    //[calendar_time:2023-05-17 00:29:55.790  system_uptime:95680157]
+    // Sending event #3600
+:Sending Touch (ACTION_DOWN): 0:(368.0,189.0)
+:Sending Touch (ACTION_UP): 0:(370.20972,206.14896)
+    // Rejecting start of Intent { act=oplus.intent.action.settings.VOICE_ASSIST_GUIDE pkg=com.android.settings cmp=com.android.settings/com.oplus.settings.feature.convenient.PowerWakeUpGuideActivity mCallingUid=1000 } in package com.android.settings
+:Sending Touch (ACTION_DOWN): 0:(388.0,1401.0)
+:Sending Touch (ACTION_UP): 0:(400.7339,1401.9274)
+:Sending Touch (ACTION_DOWN): 0:(131.0,132.0)
+:Sending Touch (ACTION_UP): 0:(111.33215,133.62743)
+:Sending Touch (ACTION_DOWN): 0:(165.0,230.0)
+:Sending Touch (ACTION_UP): 0:(165.49712,229.50566)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(348.0,1141.0)
+:Sending Touch (ACTION_UP): 0:(347.5739,1138.746)
+:Sending Touch (ACTION_DOWN): 0:(34.0,921.0)
+:Sending Touch (ACTION_UP): 0:(32.729324,899.0531)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(28.0,436.0)
+:Sending Touch (ACTION_UP): 0:(16.680378,443.66956)
+:Sending Touch (ACTION_DOWN): 0:(71.0,1325.0)
+:Sending Touch (ACTION_UP): 0:(68.7554,1327.5226)
+:Sending Touch (ACTION_DOWN): 0:(256.0,1234.0)
+:Sending Touch (ACTION_UP): 0:(256.47543,1212.7139)
+:Sending Touch (ACTION_DOWN): 0:(324.0,380.0)
+:Sending Touch (ACTION_UP): 0:(298.0039,354.3295)
+:Sending Touch (ACTION_DOWN): 0:(645.0,811.0)
+:Sending Touch (ACTION_UP): 0:(646.21155,812.7443)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+    //[calendar_time:2023-05-17 00:30:23.435  system_uptime:95707802]
+    // Sending event #3700
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(625.0,465.0)
+:Sending Touch (ACTION_UP): 0:(629.8104,468.0669)
+:Sending Touch (ACTION_DOWN): 0:(9.0,274.0)
+:Sending Touch (ACTION_UP): 0:(6.7876816,277.81287)
+:Sending Touch (ACTION_DOWN): 0:(481.0,453.0)
+:Sending Touch (ACTION_UP): 0:(484.57776,448.60587)
+:Sending Touch (ACTION_DOWN): 0:(36.0,246.0)
+:Sending Touch (ACTION_UP): 0:(43.629807,254.06462)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+    //[calendar_time:2023-05-17 00:30:47.839  system_uptime:95732206]
+    // Sending event #3800
+    //[calendar_time:2023-05-17 00:30:48.840  system_uptime:95733207]
+    // Sending event #3800
+:Sending Touch (ACTION_DOWN): 0:(481.0,541.0)
+:Sending Touch (ACTION_UP): 0:(466.27203,524.68335)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(452.0,644.0)
+:Sending Touch (ACTION_UP): 0:(446.2359,647.2046)
+:Sending Touch (ACTION_DOWN): 0:(148.0,188.0)
+:Sending Touch (ACTION_UP): 0:(178.54791,90.41221)
+:Sending Touch (ACTION_DOWN): 0:(187.0,498.0)
+:Sending Touch (ACTION_UP): 0:(185.36397,522.11334)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(675.0,1206.0)
+:Sending Touch (ACTION_UP): 0:(670.5884,1207.3958)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(203.0,101.0)
+:Sending Touch (ACTION_UP): 0:(209.83585,115.42863)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(28.0,751.0)
+:Sending Touch (ACTION_UP): 0:(15.165401,766.53424)
+    //[calendar_time:2023-05-17 00:31:10.245  system_uptime:95754612]
+    // Sending event #3900
+    //[calendar_time:2023-05-17 00:31:11.246  system_uptime:95755614]
+    // Sending event #3900
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(619.0,208.0)
+:Sending Touch (ACTION_UP): 0:(621.63464,200.02579)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://mppopupwindow?wbx_hide_close_btn=true&wbx_bg_view_dismiss=true&scheme=sinaweibo://wbox?id=n1htatg0fm&page=pages/cashier/cashier&cashier_id=137&F=tq_qutu_fbq pkg=com.sina.weibo cmp=com.sina.weibo/.wbox.popupwindow.activity.WBXDialogActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(90.0,472.0)
+:Sending Touch (ACTION_UP): 0:(117.47492,439.37225)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(405.0,529.0)
+:Sending Touch (ACTION_UP): 0:(417.99957,542.39294)
+:Sending Touch (ACTION_DOWN): 0:(626.0,212.0)
+:Sending Touch (ACTION_UP): 0:(591.4788,179.20866)
+:Sending Touch (ACTION_DOWN): 0:(615.0,1050.0)
+:Sending Touch (ACTION_UP): 0:(631.5475,1041.3921)
+:Sending Touch (ACTION_DOWN): 0:(694.0,550.0)
+:Sending Touch (ACTION_UP): 0:(697.6172,532.4252)
+    // Rejecting start of Intent { act=com.android.intent.action.SHOW_BRIGHTNESS_DIALOG cmp=com.android.systemui/.settings.brightness.BrightnessDialog mCallingUid=1000 } in package com.android.systemui
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+    //[calendar_time:2023-05-17 00:31:36.776  system_uptime:95781143]
+    // Sending event #4000
+:Sending Touch (ACTION_DOWN): 0:(602.0,100.0)
+:Sending Touch (ACTION_UP): 0:(606.8544,81.69571)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://login?followup=0&login_scene_ext=1 pkg=com.sina.weibo cmp=com.sina.weibo/.account.login.LoginActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(426.0,764.0)
+:Sending Touch (ACTION_UP): 0:(365.17722,780.3742)
+    // Allowing start of Intent { dat=https://m.weibo.cn/... pkg=com.sina.weibo cmp=com.sina.weibo/.browser.WeiboBrowser mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(484.0,134.0)
+:Sending Touch (ACTION_UP): 0:(469.67746,150.24545)
+:Sending Touch (ACTION_DOWN): 0:(200.0,497.0)
+:Sending Touch (ACTION_UP): 0:(213.31848,495.11725)
+:Sending Touch (ACTION_DOWN): 0:(333.0,1426.0)
+:Sending Touch (ACTION_UP): 0:(398.9396,1310.2042)
+:Sending Touch (ACTION_DOWN): 0:(177.0,746.0)
+:Sending Touch (ACTION_UP): 0:(177.00676,750.2287)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(229.0,618.0)
+:Sending Touch (ACTION_UP): 0:(219.57109,614.33014)
+:Sending Touch (ACTION_DOWN): 0:(94.0,237.0)
+:Sending Touch (ACTION_UP): 0:(84.43178,236.43677)
+    // activityResuming(com.sina.weibo)
+    // Allowing start of Intent { cmp=com.sina.weibo/.wboxsdk.page.acts.WBXLoadingBundleActivity mCallingUid=10226 } in package com.sina.weibo
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(690.0,1452.0)
+:Sending Touch (ACTION_UP): 0:(626.5567,1456.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+    //[calendar_time:2023-05-17 00:32:01.091  system_uptime:95805458]
+    // Sending event #4100
+:Sending Touch (ACTION_DOWN): 0:(350.0,1056.0)
+:Sending Touch (ACTION_UP): 0:(354.95657,1053.5934)
+:Sending Touch (ACTION_DOWN): 0:(97.0,330.0)
+:Sending Touch (ACTION_UP): 0:(74.415276,310.62018)
+:Sending Touch (ACTION_DOWN): 0:(312.0,765.0)
+:Sending Touch (ACTION_UP): 0:(360.7767,733.02545)
+:Sending Touch (ACTION_DOWN): 0:(411.0,697.0)
+:Sending Touch (ACTION_UP): 0:(411.87027,695.6003)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(29.0,345.0)
+:Sending Touch (ACTION_UP): 0:(0.0,268.1964)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(406.0,84.0)
+:Sending Touch (ACTION_UP): 0:(363.6729,57.549553)
+:Sending Touch (ACTION_DOWN): 0:(400.0,669.0)
+:Sending Touch (ACTION_UP): 0:(389.9048,675.3445)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(602.0,1075.0)
+:Sending Touch (ACTION_UP): 0:(607.6206,1080.0916)
+:Sending Touch (ACTION_DOWN): 0:(514.0,724.0)
+:Sending Touch (ACTION_UP): 0:(503.35724,728.4314)
+    // Allowing start of Intent { dat=https://m.weibo.cn/... pkg=com.sina.weibo cmp=com.sina.weibo/.browser.WeiboBrowser mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+    //[calendar_time:2023-05-17 00:32:28.413  system_uptime:95832780]
+    // Sending event #4200
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(506.0,620.0)
+:Sending Touch (ACTION_UP): 0:(517.176,554.6596)
+:Sending Touch (ACTION_DOWN): 0:(595.0,750.0)
+:Sending Touch (ACTION_UP): 0:(590.02545,748.3282)
+:Sending Touch (ACTION_DOWN): 0:(294.0,1312.0)
+:Sending Touch (ACTION_UP): 0:(287.52518,1311.5278)
+:Sending Touch (ACTION_DOWN): 0:(339.0,1453.0)
+:Sending Touch (ACTION_UP): 0:(342.54333,1448.5105)
+:Sending Touch (ACTION_DOWN): 0:(715.0,431.0)
+:Sending Touch (ACTION_UP): 0:(626.61957,358.52686)
+:Sending Touch (ACTION_DOWN): 0:(287.0,570.0)
+:Sending Touch (ACTION_UP): 0:(289.01343,564.7206)
+    // Rejecting start of Intent { act=android.settings.APPLICATION_DEVELOPMENT_SETTINGS pkg=com.android.settings cmp=com.android.settings/.Settings$DevelopmentSettingsDashboardActivity mCallingUid=1000 } in package com.android.settings
+:Sending Touch (ACTION_DOWN): 0:(581.0,443.0)
+:Sending Touch (ACTION_UP): 0:(570.371,432.17197)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+    //[calendar_time:2023-05-17 00:32:56.062  system_uptime:95860429]
+    // Sending event #4300
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(339.0,1122.0)
+:Sending Touch (ACTION_UP): 0:(351.73572,1125.9764)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(530.0,1403.0)
+:Sending Touch (ACTION_UP): 0:(534.8901,1379.8497)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(121.0,1071.0)
+:Sending Touch (ACTION_UP): 0:(127.55151,1082.3021)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(115.0,1251.0)
+:Sending Touch (ACTION_UP): 0:(118.53167,1251.1702)
+:Sending Touch (ACTION_DOWN): 0:(124.0,997.0)
+:Sending Touch (ACTION_UP): 0:(123.72101,992.63275)
+    //[calendar_time:2023-05-17 00:33:17.397  system_uptime:95881764]
+    // Sending event #4400
+    //[calendar_time:2023-05-17 00:33:18.398  system_uptime:95882766]
+    // Sending event #4400
+:Sending Touch (ACTION_DOWN): 0:(407.0,48.0)
+:Sending Touch (ACTION_UP): 0:(350.66193,87.95131)
+:Sending Touch (ACTION_DOWN): 0:(719.0,1055.0)
+:Sending Touch (ACTION_UP): 0:(720.0,1057.0963)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(198.0,190.0)
+:Sending Touch (ACTION_UP): 0:(212.7961,188.70279)
+:Sending Touch (ACTION_DOWN): 0:(574.0,912.0)
+:Sending Touch (ACTION_UP): 0:(533.7174,873.2894)
+    // activityResuming(com.sina.weibo)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(507.0,289.0)
+:Sending Touch (ACTION_UP): 0:(514.8364,278.18597)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    //[calendar_time:2023-05-17 00:33:43.961  system_uptime:95908329]
+    // Sending event #4500
+    //[calendar_time:2023-05-17 00:33:44.964  system_uptime:95909331]
+    // Sending event #4500
+:Sending Touch (ACTION_DOWN): 0:(713.0,441.0)
+:Sending Touch (ACTION_UP): 0:(651.6358,404.1145)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(390.0,115.0)
+:Sending Touch (ACTION_UP): 0:(296.63446,52.657978)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(432.0,785.0)
+:Sending Touch (ACTION_UP): 0:(431.05338,775.42395)
+:Sending Touch (ACTION_DOWN): 0:(492.0,392.0)
+:Sending Touch (ACTION_UP): 0:(503.7195,386.26288)
+:Sending Touch (ACTION_DOWN): 0:(425.0,572.0)
+:Sending Touch (ACTION_UP): 0:(406.3332,571.5552)
+:Sending Touch (ACTION_DOWN): 0:(700.0,1236.0)
+:Sending Touch (ACTION_UP): 0:(691.76935,1226.7402)
+:Sending Touch (ACTION_DOWN): 0:(408.0,1239.0)
+:Sending Touch (ACTION_UP): 0:(407.81934,1234.9028)
+:Sending Touch (ACTION_DOWN): 0:(357.0,46.0)
+:Sending Touch (ACTION_UP): 0:(355.3861,44.385433)
+:Sending Touch (ACTION_DOWN): 0:(524.0,1126.0)
+:Sending Touch (ACTION_UP): 0:(608.76917,1167.7738)
+:Sending Touch (ACTION_DOWN): 0:(158.0,913.0)
+:Sending Touch (ACTION_UP): 0:(138.18124,913.90125)
+:Sending Touch (ACTION_DOWN): 0:(476.0,1220.0)
+    //[calendar_time:2023-05-17 00:34:05.542  system_uptime:95929909]
+    // Sending event #4600
+:Sending Touch (ACTION_UP): 0:(482.2867,1217.2941)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(434.0,1243.0)
+:Sending Touch (ACTION_UP): 0:(436.9776,1233.6317)
+:Sending Touch (ACTION_DOWN): 0:(597.0,893.0)
+:Sending Touch (ACTION_UP): 0:(597.65155,903.1402)
+:Sending Touch (ACTION_DOWN): 0:(438.0,654.0)
+:Sending Touch (ACTION_UP): 0:(409.59555,599.1657)
+    // Rejecting start of Intent { act=oplus.intent.action.settings.VOICE_ASSIST_GUIDE pkg=com.android.settings cmp=com.android.settings/com.oplus.settings.feature.convenient.PowerWakeUpGuideActivity mCallingUid=1000 } in package com.android.settings
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher/.Launcher } in package com.android.launcher
+:Sending Touch (ACTION_DOWN): 0:(67.0,816.0)
+:Sending Touch (ACTION_UP): 0:(78.48753,866.10736)
+:Sending Touch (ACTION_DOWN): 0:(713.0,767.0)
+:Sending Touch (ACTION_UP): 0:(715.09845,770.6973)
+:Sending Touch (ACTION_DOWN): 0:(383.0,303.0)
+:Sending Touch (ACTION_UP): 0:(391.78384,327.6405)
+    // Rejecting start of Intent { act=com.oppo.action.oppoWeather cmp=com.coloros.weather2/com.coloros.weather.main.view.WeatherMainActivity mCallingUid=10125 } in package com.coloros.weather2
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(110.0,1413.0)
+:Sending Touch (ACTION_UP): 0:(147.26414,1409.1136)
+    //[calendar_time:2023-05-17 00:34:36.948  system_uptime:95961315]
+    // Sending event #4700
+:Sending Touch (ACTION_DOWN): 0:(216.0,600.0)
+:Sending Touch (ACTION_UP): 0:(182.17632,691.2853)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.oppo.quicksearchbox/com.oplus.globalsearch.ui.SearchActivity mCallingUid=10153 } in package com.oppo.quicksearchbox
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.coloros.gallery3d/.app.MainActivity mCallingUid=10153 } in package com.coloros.gallery3d
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(395.0,171.0)
+:Sending Touch (ACTION_UP): 0:(384.58258,164.00671)
+:Sending Touch (ACTION_DOWN): 0:(189.0,381.0)
+:Sending Touch (ACTION_UP): 0:(190.5544,382.18704)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR] cmp=com.google.android.calendar/com.android.calendar.AllInOneActivity mCallingUid=10125 } in package com.google.android.calendar
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+    //[calendar_time:2023-05-17 00:34:54.425  system_uptime:95978792]
+    // Sending event #4800
+:Sending Touch (ACTION_DOWN): 0:(457.0,482.0)
+:Sending Touch (ACTION_UP): 0:(453.33865,460.9104)
+:Sending Touch (ACTION_DOWN): 0:(18.0,993.0)
+:Sending Touch (ACTION_UP): 0:(21.30932,977.47687)
+:Sending Touch (ACTION_DOWN): 0:(388.0,563.0)
+:Sending Touch (ACTION_UP): 0:(386.32782,548.7738)
+:Sending Touch (ACTION_DOWN): 0:(562.0,1117.0)
+:Sending Touch (ACTION_UP): 0:(557.00055,1113.7882)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(307.0,1242.0)
+:Sending Touch (ACTION_UP): 0:(297.27664,1246.3964)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.oplus.games/.ui.main.MainGameActivity mCallingUid=10153 } in package com.oplus.games
+:Sending Touch (ACTION_DOWN): 0:(676.0,1043.0)
+:Sending Touch (ACTION_UP): 0:(716.8487,1131.9402)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.oppo.quicksearchbox/com.oplus.globalsearch.ui.SearchActivity mCallingUid=10153 } in package com.oppo.quicksearchbox
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.vending/.AssetBrowserActivity mCallingUid=10153 } in package com.android.vending
+:Sending Touch (ACTION_DOWN): 0:(674.0,784.0)
+:Sending Touch (ACTION_UP): 0:(673.9359,784.83453)
+:Sending Touch (ACTION_DOWN): 0:(610.0,525.0)
+:Sending Touch (ACTION_UP): 0:(616.2668,520.7438)
+:Sending Touch (ACTION_DOWN): 0:(307.0,471.0)
+:Sending Touch (ACTION_UP): 0:(308.9205,464.08786)
+:Sending Touch (ACTION_DOWN): 0:(693.0,700.0)
+:Sending Touch (ACTION_UP): 0:(682.52344,695.958)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.oppo.quicksearchbox/com.oplus.globalsearch.ui.SearchActivity mCallingUid=10153 } in package com.oppo.quicksearchbox
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.vending/.AssetBrowserActivity mCallingUid=10153 } in package com.android.vending
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(218.0,85.0)
+:Sending Touch (ACTION_UP): 0:(201.23547,82.26528)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+    //[calendar_time:2023-05-17 00:35:28.952  system_uptime:96013319]
+    // Sending event #4900
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(490.0,1446.0)
+:Sending Touch (ACTION_UP): 0:(488.6853,1440.8087)
+:Sending Touch (ACTION_DOWN): 0:(342.0,1063.0)
+:Sending Touch (ACTION_UP): 0:(355.39017,1067.1489)
+:Sending Touch (ACTION_DOWN): 0:(312.0,1337.0)
+:Sending Touch (ACTION_UP): 0:(379.62036,1427.9076)
+:Sending Touch (ACTION_DOWN): 0:(694.0,741.0)
+:Sending Touch (ACTION_UP): 0:(720.0,814.6291)
+:Sending Touch (ACTION_DOWN): 0:(606.0,1142.0)
+:Sending Touch (ACTION_UP): 0:(512.7839,1103.0651)
+:Sending Touch (ACTION_DOWN): 0:(521.0,930.0)
+:Sending Touch (ACTION_UP): 0:(503.3296,944.4297)
+:Sending Touch (ACTION_DOWN): 0:(228.0,301.0)
+:Sending Touch (ACTION_UP): 0:(308.24524,221.53886)
+:Sending Touch (ACTION_DOWN): 0:(231.0,680.0)
+:Sending Touch (ACTION_UP): 0:(226.27692,685.901)
+:Sending Touch (ACTION_DOWN): 0:(308.0,439.0)
+:Sending Touch (ACTION_UP): 0:(324.12286,367.11264)
+:Sending Touch (ACTION_DOWN): 0:(437.0,1307.0)
+:Sending Touch (ACTION_UP): 0:(435.2533,1300.0049)
+:Sending Touch (ACTION_DOWN): 0:(564.0,560.0)
+:Sending Touch (ACTION_UP): 0:(531.8862,578.5597)
+:Sending Touch (ACTION_DOWN): 0:(697.0,956.0)
+:Sending Touch (ACTION_UP): 0:(720.0,853.9243)
+:Sending Touch (ACTION_DOWN): 0:(220.0,847.0)
+:Sending Touch (ACTION_UP): 0:(220.95311,842.1043)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+    //[calendar_time:2023-05-17 00:35:54.237  system_uptime:96038604]
+    // Sending event #5000
+:Sending Touch (ACTION_DOWN): 0:(388.0,109.0)
+:Sending Touch (ACTION_UP): 0:(395.9627,98.84307)
+:Sending Touch (ACTION_DOWN): 0:(299.0,305.0)
+:Sending Touch (ACTION_UP): 0:(297.45004,310.26434)
+:Sending Touch (ACTION_DOWN): 0:(572.0,1188.0)
+:Sending Touch (ACTION_UP): 0:(577.226,1188.9133)
+:Sending Touch (ACTION_DOWN): 0:(298.0,1155.0)
+:Sending Touch (ACTION_UP): 0:(293.0848,1159.6417)
+:Sending Touch (ACTION_DOWN): 0:(453.0,1449.0)
+:Sending Touch (ACTION_UP): 0:(436.65723,1444.6575)
+:Sending Touch (ACTION_DOWN): 0:(391.0,118.0)
+:Sending Touch (ACTION_UP): 0:(388.95038,109.25103)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(208.0,447.0)
+:Sending Touch (ACTION_UP): 0:(202.86522,443.75357)
+:Sending Touch (ACTION_DOWN): 0:(544.0,966.0)
+:Sending Touch (ACTION_UP): 0:(540.6938,971.30365)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(453.0,278.0)
+:Sending Touch (ACTION_UP): 0:(448.25977,276.6705)
+    //[calendar_time:2023-05-17 00:36:20.790  system_uptime:96065157]
+    // Sending event #5100
+    //[calendar_time:2023-05-17 00:36:21.791  system_uptime:96066159]
+    // Sending event #5100
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(198.0,1170.0)
+:Sending Touch (ACTION_UP): 0:(192.01506,1174.5355)
+:Sending Touch (ACTION_DOWN): 0:(314.0,1415.0)
+:Sending Touch (ACTION_UP): 0:(234.7361,1391.7012)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(147.0,308.0)
+:Sending Touch (ACTION_UP): 0:(145.48274,321.83774)
+:Sending Touch (ACTION_DOWN): 0:(433.0,1215.0)
+:Sending Touch (ACTION_UP): 0:(362.08972,1280.7959)
+:Sending Touch (ACTION_DOWN): 0:(690.0,1241.0)
+:Sending Touch (ACTION_UP): 0:(698.48303,1244.5228)
+:Sending Touch (ACTION_DOWN): 0:(543.0,51.0)
+:Sending Touch (ACTION_UP): 0:(536.2776,46.538456)
+:Sending Touch (ACTION_DOWN): 0:(658.0,428.0)
+:Sending Touch (ACTION_UP): 0:(660.64325,400.32907)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+    //[calendar_time:2023-05-17 00:36:50.110  system_uptime:96094477]
+    // Sending event #5200
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(493.0,1053.0)
+:Sending Touch (ACTION_UP): 0:(474.44794,1036.8832)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(692.0,856.0)
+:Sending Touch (ACTION_UP): 0:(692.4589,856.7115)
+:Sending Touch (ACTION_DOWN): 0:(253.0,362.0)
+:Sending Touch (ACTION_UP): 0:(254.22331,345.0679)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(373.0,1369.0)
+:Sending Touch (ACTION_UP): 0:(339.45972,1412.8234)
+:Sending Touch (ACTION_DOWN): 0:(270.0,629.0)
+:Sending Touch (ACTION_UP): 0:(265.69385,635.51074)
+:Sending Touch (ACTION_DOWN): 0:(368.0,776.0)
+:Sending Touch (ACTION_UP): 0:(351.2554,775.9679)
+:Sending Touch (ACTION_DOWN): 0:(25.0,719.0)
+:Sending Touch (ACTION_UP): 0:(25.944962,722.0654)
+:Sending Touch (ACTION_DOWN): 0:(31.0,13.0)
+:Sending Touch (ACTION_UP): 0:(31.027678,15.576641)
+:Sending Touch (ACTION_DOWN): 0:(120.0,871.0)
+:Sending Touch (ACTION_UP): 0:(108.01965,864.7095)
+:Sending Touch (ACTION_DOWN): 0:(638.0,544.0)
+:Sending Touch (ACTION_UP): 0:(636.8823,542.4328)
+:Sending Touch (ACTION_DOWN): 0:(370.0,842.0)
+    //[calendar_time:2023-05-17 00:37:17.589  system_uptime:96121956]
+    // Sending event #5300
+:Sending Touch (ACTION_UP): 0:(424.49002,908.28796)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(476.0,394.0)
+:Sending Touch (ACTION_UP): 0:(480.26425,405.33304)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(704.0,822.0)
+:Sending Touch (ACTION_UP): 0:(695.8657,790.7847)
+:Sending Touch (ACTION_DOWN): 0:(113.0,70.0)
+:Sending Touch (ACTION_UP): 0:(82.77061,53.965733)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(306.0,670.0)
+:Sending Touch (ACTION_UP): 0:(315.7529,666.70337)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher/.Launcher } in package com.android.launcher
+:Sending Touch (ACTION_DOWN): 0:(134.0,362.0)
+:Sending Touch (ACTION_UP): 0:(134.31654,363.04843)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.APP_CALENDAR] cmp=com.google.android.calendar/com.android.calendar.AllInOneActivity mCallingUid=10125 } in package com.google.android.calendar
+:Sending Touch (ACTION_DOWN): 0:(162.0,136.0)
+:Sending Touch (ACTION_UP): 0:(161.7839,146.5317)
+:Sending Touch (ACTION_DOWN): 0:(38.0,457.0)
+:Sending Touch (ACTION_UP): 0:(32.33382,431.59097)
+:Sending Touch (ACTION_DOWN): 0:(144.0,178.0)
+    //[calendar_time:2023-05-17 00:37:39.127  system_uptime:96143495]
+    // Sending event #5400
+:Sending Touch (ACTION_UP): 0:(136.00357,177.83058)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(700.0,72.0)
+:Sending Touch (ACTION_UP): 0:(700.59894,70.33439)
+:Sending Touch (ACTION_DOWN): 0:(187.0,1353.0)
+:Sending Touch (ACTION_UP): 0:(184.98093,1347.1312)
+:Sending Touch (ACTION_DOWN): 0:(379.0,1409.0)
+:Sending Touch (ACTION_UP): 0:(378.36545,1399.8232)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.oppo.quicksearchbox/com.oplus.globalsearch.ui.SearchActivity mCallingUid=10153 } in package com.oppo.quicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(443.0,592.0)
+:Sending Touch (ACTION_UP): 0:(436.12518,590.7974)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(620.0,263.0)
+:Sending Touch (ACTION_UP): 0:(624.3455,296.19055)
+:Sending Touch (ACTION_DOWN): 0:(335.0,973.0)
+:Sending Touch (ACTION_UP): 0:(340.03992,973.0234)
+:Sending Touch (ACTION_DOWN): 0:(249.0,48.0)
+:Sending Touch (ACTION_UP): 0:(258.82373,57.608723)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+    //[calendar_time:2023-05-17 00:38:01.622  system_uptime:96165989]
+    // Sending event #5500
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(538.0,49.0)
+:Sending Touch (ACTION_UP): 0:(489.1471,12.218328)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(525.0,1362.0)
+:Sending Touch (ACTION_UP): 0:(528.88257,1364.582)
+:Sending Touch (ACTION_DOWN): 0:(56.0,456.0)
+:Sending Touch (ACTION_UP): 0:(34.67839,452.60345)
+    // Allowing start of Intent { cmp=com.sina.weibo/.account.SelectCountryActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(533.0,1228.0)
+:Sending Touch (ACTION_UP): 0:(528.33185,1218.8269)
+    // activityResuming(com.sina.weibo)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+    //[calendar_time:2023-05-17 00:38:16.021  system_uptime:96180388]
+    // Sending event #5600
+:Sending Touch (ACTION_DOWN): 0:(654.0,785.0)
+:Sending Touch (ACTION_UP): 0:(663.6738,786.68915)
+:Sending Touch (ACTION_DOWN): 0:(254.0,1037.0)
+:Sending Touch (ACTION_UP): 0:(241.39786,1029.6107)
+:Sending Touch (ACTION_DOWN): 0:(143.0,1318.0)
+:Sending Touch (ACTION_UP): 0:(148.3128,1313.4137)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(279.0,943.0)
+:Sending Touch (ACTION_UP): 0:(312.30505,958.2153)
+    // Allowing start of Intent { dat=https://kefu.weibo.com/... pkg=com.sina.weibo cmp=com.sina.weibo/.browser.WeiboBrowser mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(159.0,1330.0)
+:Sending Touch (ACTION_UP): 0:(152.08844,1336.1917)
+:Sending Touch (ACTION_DOWN): 0:(475.0,671.0)
+:Sending Touch (ACTION_UP): 0:(488.6682,681.7099)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(614.0,827.0)
+:Sending Touch (ACTION_UP): 0:(626.78503,822.2651)
+:Sending Touch (ACTION_DOWN): 0:(409.0,12.0)
+:Sending Touch (ACTION_UP): 0:(381.10403,35.523117)
+:Sending Touch (ACTION_DOWN): 0:(535.0,1401.0)
+:Sending Touch (ACTION_UP): 0:(558.086,1413.9054)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+    //[calendar_time:2023-05-17 00:38:43.575  system_uptime:96207942]
+    // Sending event #5700
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher/.Launcher } in package com.android.launcher
+:Sending Touch (ACTION_DOWN): 0:(338.0,701.0)
+:Sending Touch (ACTION_UP): 0:(344.3833,707.1332)
+:Sending Touch (ACTION_DOWN): 0:(607.0,1334.0)
+:Sending Touch (ACTION_UP): 0:(610.21716,1317.4578)
+:Sending Touch (ACTION_DOWN): 0:(249.0,25.0)
+:Sending Touch (ACTION_UP): 0:(261.92606,25.768532)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(514.0,467.0)
+:Sending Touch (ACTION_UP): 0:(518.81104,452.9433)
+:Sending Touch (ACTION_DOWN): 0:(76.0,51.0)
+:Sending Touch (ACTION_UP): 0:(118.09862,43.235397)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(62.0,963.0)
+:Sending Touch (ACTION_UP): 0:(56.88312,978.3985)
+:Sending Touch (ACTION_DOWN): 0:(638.0,920.0)
+:Sending Touch (ACTION_UP): 0:(652.6869,932.39545)
+:Sending Touch (ACTION_DOWN): 0:(119.0,799.0)
+:Sending Touch (ACTION_UP): 0:(123.43305,808.4209)
+:Sending Touch (ACTION_DOWN): 0:(589.0,1026.0)
+:Sending Touch (ACTION_UP): 0:(575.3183,1022.7742)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(598.0,553.0)
+:Sending Touch (ACTION_UP): 0:(605.5193,545.7719)
+:Sending Touch (ACTION_DOWN): 0:(594.0,733.0)
+:Sending Touch (ACTION_UP): 0:(606.7512,736.03754)
+:Sending Touch (ACTION_DOWN): 0:(297.0,1237.0)
+:Sending Touch (ACTION_UP): 0:(285.20554,1232.7548)
+:Sending Touch (ACTION_DOWN): 0:(711.0,272.0)
+    //[calendar_time:2023-05-17 00:39:19.376  system_uptime:96243743]
+    // Sending event #5800
+:Sending Touch (ACTION_UP): 0:(710.6939,279.59564)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher/.Launcher } in package com.android.launcher
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.oppo.quicksearchbox/com.oplus.globalsearch.ui.SearchActivity mCallingUid=10153 } in package com.oppo.quicksearchbox
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.coloros.filemanager/com.oplus.filemanager.main.ui.MainActivity mCallingUid=10153 } in package com.coloros.filemanager
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(481.0,668.0)
+:Sending Touch (ACTION_UP): 0:(483.13547,668.6939)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(249.0,141.0)
+:Sending Touch (ACTION_UP): 0:(288.87012,150.37941)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+    //[calendar_time:2023-05-17 00:39:43.936  system_uptime:96268303]
+    // Sending event #5900
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(636.0,399.0)
+:Sending Touch (ACTION_UP): 0:(645.214,394.63748)
+:Sending Touch (ACTION_DOWN): 0:(448.0,271.0)
+:Sending Touch (ACTION_UP): 0:(447.93628,275.3177)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(501.0,1260.0)
+:Sending Touch (ACTION_UP): 0:(505.8379,1271.5426)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.android.launcher/.Launcher } in package com.android.launcher
+:Sending Touch (ACTION_DOWN): 0:(73.0,1273.0)
+:Sending Touch (ACTION_UP): 0:(65.785675,1276.6202)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.heytap.music/com.nearme.music.splash.SplashActivity mCallingUid=10153 } in package com.heytap.music
+:Sending Touch (ACTION_DOWN): 0:(130.0,868.0)
+:Sending Touch (ACTION_UP): 0:(128.77005,865.8958)
+:Sending Touch (ACTION_DOWN): 0:(67.0,1098.0)
+:Sending Touch (ACTION_UP): 0:(70.48233,1102.7407)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(308.0,1413.0)
+:Sending Touch (ACTION_UP): 0:(306.60797,1413.1166)
+:Sending Touch (ACTION_DOWN): 0:(648.0,1129.0)
+:Sending Touch (ACTION_UP): 0:(644.0732,1187.4849)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+    //[calendar_time:2023-05-17 00:40:12.412  system_uptime:96296779]
+    // Sending event #6000
+:Sending Touch (ACTION_DOWN): 0:(671.0,810.0)
+:Sending Touch (ACTION_UP): 0:(681.6939,802.98285)
+:Sending Touch (ACTION_DOWN): 0:(657.0,1169.0)
+:Sending Touch (ACTION_UP): 0:(692.2637,1255.4036)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(669.0,1440.0)
+:Sending Touch (ACTION_UP): 0:(667.9253,1433.2057)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(657.0,126.0)
+:Sending Touch (ACTION_UP): 0:(648.50433,111.24974)
+    // Allowing start of Intent { cmp=com.sina.weibo/.account.VisitorSignUpActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+    // activityResuming(com.sina.weibo)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+    //[calendar_time:2023-05-17 00:40:32.735  system_uptime:96317102]
+    // Sending event #6100
+:Sending Touch (ACTION_DOWN): 0:(435.0,547.0)
+:Sending Touch (ACTION_UP): 0:(413.3739,551.45715)
+:Sending Touch (ACTION_DOWN): 0:(706.0,1205.0)
+:Sending Touch (ACTION_UP): 0:(690.57635,1205.9475)
+:Sending Touch (ACTION_DOWN): 0:(191.0,451.0)
+:Sending Touch (ACTION_UP): 0:(145.98338,403.95212)
+:Sending Touch (ACTION_DOWN): 0:(52.0,89.0)
+:Sending Touch (ACTION_UP): 0:(53.00893,90.86096)
+:Sending Touch (ACTION_DOWN): 0:(330.0,824.0)
+:Sending Touch (ACTION_UP): 0:(353.87695,879.75)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(80.0,231.0)
+:Sending Touch (ACTION_UP): 0:(90.240875,221.004)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(431.0,628.0)
+:Sending Touch (ACTION_UP): 0:(430.95917,637.7013)
+:Sending Touch (ACTION_DOWN): 0:(652.0,1448.0)
+:Sending Touch (ACTION_UP): 0:(602.77924,1456.0)
+:Sending Touch (ACTION_DOWN): 0:(286.0,802.0)
+:Sending Touch (ACTION_UP): 0:(278.8045,799.8477)
+    //[calendar_time:2023-05-17 00:41:03.271  system_uptime:96347638]
+    // Sending event #6200
+:Sending Touch (ACTION_DOWN): 0:(552.0,1203.0)
+:Sending Touch (ACTION_UP): 0:(558.1604,1195.4644)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(330.0,777.0)
+:Sending Touch (ACTION_UP): 0:(305.87473,846.4156)
+:Sending Touch (ACTION_DOWN): 0:(34.0,862.0)
+:Sending Touch (ACTION_UP): 0:(28.419395,873.7599)
+:Sending Touch (ACTION_DOWN): 0:(711.0,1219.0)
+:Sending Touch (ACTION_UP): 0:(708.21954,1170.6086)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(234.0,50.0)
+:Sending Touch (ACTION_UP): 0:(234.5978,43.30278)
+:Sending Touch (ACTION_DOWN): 0:(678.0,948.0)
+:Sending Touch (ACTION_UP): 0:(650.36615,826.53656)
+:Sending Touch (ACTION_DOWN): 0:(641.0,139.0)
+:Sending Touch (ACTION_UP): 0:(634.362,128.60933)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+    //[calendar_time:2023-05-17 00:41:22.583  system_uptime:96366950]
+    // Sending event #6300
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(251.0,338.0)
+:Sending Touch (ACTION_UP): 0:(254.50465,338.06824)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(363.0,1166.0)
+:Sending Touch (ACTION_UP): 0:(435.23755,1155.5175)
+:Sending Touch (ACTION_DOWN): 0:(218.0,1212.0)
+:Sending Touch (ACTION_UP): 0:(202.75893,1211.6769)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(86.0,236.0)
+:Sending Touch (ACTION_UP): 0:(86.309265,234.5371)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+    //[calendar_time:2023-05-17 00:41:38.884  system_uptime:96383251]
+    // Sending event #6400
+:Sending Touch (ACTION_DOWN): 0:(542.0,1198.0)
+:Sending Touch (ACTION_UP): 0:(551.28705,1199.1318)
+:Sending Touch (ACTION_DOWN): 0:(45.0,460.0)
+:Sending Touch (ACTION_UP): 0:(0.0,490.8477)
+:Sending Touch (ACTION_DOWN): 0:(346.0,665.0)
+:Sending Touch (ACTION_UP): 0:(338.6347,666.8385)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(678.0,356.0)
+:Sending Touch (ACTION_UP): 0:(669.61945,352.06796)
+:Sending Touch (ACTION_DOWN): 0:(95.0,725.0)
+:Sending Touch (ACTION_UP): 0:(138.86754,802.80853)
+:Sending Touch (ACTION_DOWN): 0:(11.0,507.0)
+:Sending Touch (ACTION_UP): 0:(0.2296896,495.40353)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(536.0,979.0)
+:Sending Touch (ACTION_UP): 0:(519.5337,970.48694)
+:Sending Touch (ACTION_DOWN): 0:(536.0,46.0)
+:Sending Touch (ACTION_UP): 0:(531.79504,33.87428)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+    //[calendar_time:2023-05-17 00:42:05.436  system_uptime:96409803]
+    // Sending event #6500
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(75.0,499.0)
+:Sending Touch (ACTION_UP): 0:(74.46763,493.25226)
+:Sending Touch (ACTION_DOWN): 0:(239.0,1292.0)
+:Sending Touch (ACTION_UP): 0:(242.51003,1295.8009)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(148.0,175.0)
+:Sending Touch (ACTION_UP): 0:(157.13136,227.57884)
+:Sending Touch (ACTION_DOWN): 0:(402.0,481.0)
+:Sending Touch (ACTION_UP): 0:(396.16522,477.99368)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(529.0,43.0)
+:Sending Touch (ACTION_UP): 0:(528.6415,84.65616)
+:Sending Touch (ACTION_DOWN): 0:(534.0,1302.0)
+:Sending Touch (ACTION_UP): 0:(557.0767,1301.107)
+:Sending Touch (ACTION_DOWN): 0:(300.0,446.0)
+:Sending Touch (ACTION_UP): 0:(294.10944,463.72275)
+:Sending Touch (ACTION_DOWN): 0:(141.0,1025.0)
+:Sending Touch (ACTION_UP): 0:(127.07624,1027.3901)
+    // Rejecting start of Intent { act=com.google.android.googlequicksearchbox.INTERNAL_GOOGLE_SEARCH dat=ga:/data?tab_type=2&go_back_to_discover_feed_from_srp=true&ga_query_options=CgxtZXRlb3JvbG9naWEiSgoGeGdhY2lkEkAwOWMyMzFkOGUxOGUzMDE0Nzc4OTFkYWU1MDI0NDVkN2ExYThkYjNiYTA1Y2UwM2EyNzE2NzU4ZjJlNmRjOTU5IjQKA3ZlZBItMmFoVUtFd2pFOG9uZ19fci1BaFdFdTFRS0hadjJDOUlROWZBRGVnUUlHeEFCIhsKB25zb3VyY2USEGFuZC5ub3cubi53ZS5kZWYiwAEKBXN0aWNrErYBSDRzSUFBQUFBQUFBQU9NUWZzU1l6eTN3OHNjOVlhbTBTV3RPWG1OTTRHSVBUMDBzeVVndEVncmw0dkRKVDA0c3ljelBFX0xVY2s5eTVSTGlET3llTXBmNWt4S3ZZS203b0llN19oWmRJU0ZPQmdhR2hDQWVGd2RCSU9OQjV6S0ZBMG9DdnBsRmlYa3BpUW9wLVFyTy1VVmwtVnFjLXJuNkJoWkc2V1dGUEFDZHVialFkQUFBQUEoAFgBYiEKEwjE8ong//r+AhWEu1QKHZv2C9ISCnd4LmY6MHgzOTQ= id=chime://-1000058511 cmp=com.google.android.googlequicksearchbox/.InternalGoogleAppActivityEntrypoint mCallingUid=1000 } in package com.google.android.googlequicksearchbox
+:Sending Touch (ACTION_DOWN): 0:(472.0,705.0)
+    //[calendar_time:2023-05-17 00:42:26.792  system_uptime:96431159]
+    // Sending event #6600
+:Sending Touch (ACTION_UP): 0:(455.54022,726.907)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(464.0,195.0)
+:Sending Touch (ACTION_UP): 0:(383.92694,119.43146)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(114.0,786.0)
+:Sending Touch (ACTION_UP): 0:(126.527756,790.01495)
+:Sending Touch (ACTION_DOWN): 0:(577.0,1138.0)
+:Sending Touch (ACTION_UP): 0:(573.4542,1125.2365)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+    //[calendar_time:2023-05-17 00:42:37.215  system_uptime:96441582]
+    // Sending event #6700
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(466.0,532.0)
+:Sending Touch (ACTION_UP): 0:(418.46527,451.12317)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(585.0,240.0)
+:Sending Touch (ACTION_UP): 0:(489.5915,176.67108)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(655.0,563.0)
+:Sending Touch (ACTION_UP): 0:(666.5473,569.0141)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(185.0,1066.0)
+:Sending Touch (ACTION_UP): 0:(173.65256,983.90765)
+:Sending Touch (ACTION_DOWN): 0:(405.0,851.0)
+:Sending Touch (ACTION_UP): 0:(336.07596,855.3846)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(399.0,1066.0)
+:Sending Touch (ACTION_UP): 0:(384.7959,1077.968)
+    //[calendar_time:2023-05-17 00:42:55.477  system_uptime:96459845]
+    // Sending event #6800
+    //[calendar_time:2023-05-17 00:42:56.479  system_uptime:96460847]
+    // Sending event #6800
+:Sending Touch (ACTION_DOWN): 0:(246.0,918.0)
+:Sending Touch (ACTION_UP): 0:(380.22632,724.78754)
+:Sending Touch (ACTION_DOWN): 0:(112.0,663.0)
+:Sending Touch (ACTION_UP): 0:(114.11,671.05426)
+:Sending Touch (ACTION_DOWN): 0:(280.0,1332.0)
+:Sending Touch (ACTION_UP): 0:(304.7455,1330.353)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(427.0,1359.0)
+:Sending Touch (ACTION_UP): 0:(415.95737,1360.4534)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.gm/.ConversationListActivityGmail mCallingUid=1000 } in package com.google.android.gm
+:Sending Touch (ACTION_DOWN): 0:(104.0,929.0)
+:Sending Touch (ACTION_UP): 0:(110.528885,936.6654)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(214.0,56.0)
+:Sending Touch (ACTION_UP): 0:(202.55032,38.950996)
+:Sending Touch (ACTION_DOWN): 0:(287.0,1152.0)
+:Sending Touch (ACTION_UP): 0:(272.6701,1152.2363)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(231.0,985.0)
+:Sending Touch (ACTION_UP): 0:(231.96208,974.9807)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+    //[calendar_time:2023-05-17 00:43:17.987  system_uptime:96482354]
+    // Sending event #6900
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(387.0,1405.0)
+:Sending Touch (ACTION_UP): 0:(358.58777,1366.5762)
+:Sending Touch (ACTION_DOWN): 0:(463.0,980.0)
+:Sending Touch (ACTION_UP): 0:(464.9613,969.91797)
+:Sending Touch (ACTION_DOWN): 0:(354.0,254.0)
+:Sending Touch (ACTION_UP): 0:(354.0219,261.51025)
+:Sending Touch (ACTION_DOWN): 0:(32.0,1063.0)
+:Sending Touch (ACTION_UP): 0:(29.04668,1135.1675)
+:Sending Touch (ACTION_DOWN): 0:(433.0,499.0)
+:Sending Touch (ACTION_UP): 0:(429.9176,515.5864)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://detail?mblogid=4902054843911428 pkg=com.sina.weibo cmp=com.sina.weibo/.feed.DetailWeiboActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(142.0,152.0)
+:Sending Touch (ACTION_UP): 0:(141.52411,199.56223)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(110.0,1281.0)
+:Sending Touch (ACTION_UP): 0:(111.45597,1278.6719)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(302.0,589.0)
+:Sending Touch (ACTION_UP): 0:(305.04208,571.81274)
+:Sending Touch (ACTION_DOWN): 0:(118.0,297.0)
+    //[calendar_time:2023-05-17 00:43:35.626  system_uptime:96499994]
+    // Sending event #7000
+:Sending Touch (ACTION_UP): 0:(122.69712,249.04472)
+:Sending Touch (ACTION_DOWN): 0:(34.0,790.0)
+:Sending Touch (ACTION_UP): 0:(25.807184,702.85767)
+:Sending Touch (ACTION_DOWN): 0:(693.0,928.0)
+:Sending Touch (ACTION_UP): 0:(703.75964,922.14374)
+:Sending Touch (ACTION_DOWN): 0:(436.0,23.0)
+:Sending Touch (ACTION_UP): 0:(452.27847,20.910864)
+:Sending Touch (ACTION_DOWN): 0:(573.0,1008.0)
+:Sending Touch (ACTION_UP): 0:(561.9888,1014.5963)
+:Sending Touch (ACTION_DOWN): 0:(666.0,1313.0)
+:Sending Touch (ACTION_UP): 0:(665.2258,1314.1945)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(115.0,440.0)
+:Sending Touch (ACTION_UP): 0:(116.366165,436.50534)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(194.0,912.0)
+:Sending Touch (ACTION_UP): 0:(195.6535,900.39716)
+:Sending Touch (ACTION_DOWN): 0:(537.0,102.0)
+:Sending Touch (ACTION_UP): 0:(545.7555,90.21179)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(225.0,552.0)
+:Sending Touch (ACTION_UP): 0:(343.81073,534.355)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+    //[calendar_time:2023-05-17 00:43:50.868  system_uptime:96515235]
+    // Sending event #7100
+:Sending Touch (ACTION_DOWN): 0:(210.0,1306.0)
+:Sending Touch (ACTION_UP): 0:(241.17824,1210.6946)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(177.0,230.0)
+:Sending Touch (ACTION_UP): 0:(179.75726,242.44792)
+:Sending Touch (ACTION_DOWN): 0:(41.0,1435.0)
+:Sending Touch (ACTION_UP): 0:(99.76436,1456.0)
+:Sending Touch (ACTION_DOWN): 0:(630.0,551.0)
+:Sending Touch (ACTION_UP): 0:(575.5636,523.4885)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(169.0,1432.0)
+:Sending Touch (ACTION_UP): 0:(159.03622,1456.0)
+:Sending Touch (ACTION_DOWN): 0:(30.0,1087.0)
+    //[calendar_time:2023-05-17 00:44:09.168  system_uptime:96533535]
+    // Sending event #7200
+:Sending Touch (ACTION_UP): 0:(49.834827,1058.2631)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(561.0,1096.0)
+:Sending Touch (ACTION_UP): 0:(562.1707,1078.1177)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://detail?mblogid=4902152738444062 pkg=com.sina.weibo cmp=com.sina.weibo/.feed.DetailWeiboActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(681.0,854.0)
+:Sending Touch (ACTION_UP): 0:(720.0,862.3776)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(295.0,641.0)
+:Sending Touch (ACTION_UP): 0:(281.06226,638.19336)
+    // Allowing start of Intent { cmp=com.sina.weibo/.photoalbum.imageviewer.ImageViewer mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(252.0,326.0)
+:Sending Touch (ACTION_UP): 0:(246.78026,323.19196)
+:Sending Touch (ACTION_DOWN): 0:(556.0,356.0)
+:Sending Touch (ACTION_UP): 0:(597.3526,375.2541)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+    //[calendar_time:2023-05-17 00:44:35.052  system_uptime:96559419]
+    // Sending event #7300
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(204.0,1317.0)
+:Sending Touch (ACTION_UP): 0:(133.11641,1354.0089)
+:Sending Touch (ACTION_DOWN): 0:(513.0,110.0)
+:Sending Touch (ACTION_UP): 0:(528.3762,114.858795)
+:Sending Touch (ACTION_DOWN): 0:(446.0,879.0)
+:Sending Touch (ACTION_UP): 0:(398.35037,816.32886)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(628.0,15.0)
+:Sending Touch (ACTION_UP): 0:(615.27423,16.317696)
+    // activityResuming(com.sina.weibo)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(292.0,209.0)
+:Sending Touch (ACTION_UP): 0:(295.1174,211.31386)
+    // Allowing start of Intent { dat=sinaweibo://cardlist?containerid=231583&oid=4902100703908401&luicode=10000011&lfid=102803&v_p=42 pkg=com.sina.weibo cmp=com.sina.weibo/.page.NewCardListActivity mCallingUid=10226 } in package com.sina.weibo
+    // activityResuming(com.sina.weibo)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(39.0,128.0)
+:Sending Touch (ACTION_UP): 0:(54.428177,148.94109)
+    //[calendar_time:2023-05-17 00:44:56.496  system_uptime:96580864]
+    // Sending event #7400
+    // activityResuming(com.sina.weibo)
+    //[calendar_time:2023-05-17 00:44:57.499  system_uptime:96581866]
+    // Sending event #7400
+:Sending Touch (ACTION_DOWN): 0:(352.0,215.0)
+:Sending Touch (ACTION_UP): 0:(350.3417,205.82059)
+:Sending Touch (ACTION_DOWN): 0:(369.0,1108.0)
+:Sending Touch (ACTION_UP): 0:(362.738,1105.1924)
+:Sending Touch (ACTION_DOWN): 0:(259.0,364.0)
+:Sending Touch (ACTION_UP): 0:(234.26813,365.91687)
+:Sending Touch (ACTION_DOWN): 0:(224.0,193.0)
+:Sending Touch (ACTION_UP): 0:(283.7339,146.98042)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(478.0,1256.0)
+:Sending Touch (ACTION_UP): 0:(484.46225,1260.9569)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(568.0,240.0)
+:Sending Touch (ACTION_UP): 0:(563.167,241.24397)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(592.0,112.0)
+:Sending Touch (ACTION_UP): 0:(591.74475,125.11883)
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(33.0,322.0)
+:Sending Touch (ACTION_UP): 0:(24.232618,314.44888)
+:Sending Touch (ACTION_DOWN): 0:(202.0,1079.0)
+:Sending Touch (ACTION_UP): 0:(201.84512,1087.1617)
+:Sending Touch (ACTION_DOWN): 0:(616.0,285.0)
+:Sending Touch (ACTION_UP): 0:(622.28546,271.19345)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(95.0,800.0)
+:Sending Touch (ACTION_UP): 0:(94.9035,804.82733)
+:Sending Touch (ACTION_DOWN): 0:(202.0,111.0)
+:Sending Touch (ACTION_UP): 0:(201.91989,109.96842)
+:Sending Touch (ACTION_DOWN): 0:(30.0,100.0)
+:Sending Touch (ACTION_UP): 0:(40.259968,97.065735)
+    // activityResuming(com.sina.weibo)
+    // activityResuming(com.sina.weibo)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+    //[calendar_time:2023-05-17 00:45:29.002  system_uptime:96613369]
+    // Sending event #7500
+:Sending Touch (ACTION_DOWN): 0:(96.0,1065.0)
+:Sending Touch (ACTION_UP): 0:(107.60931,1193.5868)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.google.android.calendar/com.android.calendar.AllInOneActivity mCallingUid=1000 } in package com.google.android.calendar
+:Sending Touch (ACTION_DOWN): 0:(68.0,375.0)
+:Sending Touch (ACTION_UP): 0:(64.03377,396.35916)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(587.0,1262.0)
+:Sending Touch (ACTION_UP): 0:(531.5666,1246.1296)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(160.0,137.0)
+:Sending Touch (ACTION_UP): 0:(156.41066,130.96718)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(570.0,1089.0)
+:Sending Touch (ACTION_UP): 0:(574.35114,1081.515)
+:Sending Touch (ACTION_DOWN): 0:(160.0,955.0)
+:Sending Touch (ACTION_UP): 0:(205.50526,937.2359)
+:Sending Touch (ACTION_DOWN): 0:(699.0,780.0)
+:Sending Touch (ACTION_UP): 0:(696.4267,788.18176)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+    //[calendar_time:2023-05-17 00:45:55.722  system_uptime:96640090]
+    // Sending event #7600
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(682.0,548.0)
+:Sending Touch (ACTION_UP): 0:(707.2551,546.1766)
+:Sending Touch (ACTION_DOWN): 0:(271.0,39.0)
+:Sending Touch (ACTION_UP): 0:(271.558,45.241062)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(167.0,983.0)
+:Sending Touch (ACTION_UP): 0:(167.88814,984.7651)
+    // Allowing start of Intent { dat=sinaweibo://cardlist?containerid=2310025112314458_-_HOTMBLOG pkg=com.sina.weibo cmp=com.sina.weibo/.page.NewCardListActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+    //[calendar_time:2023-05-17 00:46:18.514  system_uptime:96662881]
+    // Sending event #7700
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://userinfo?uid=5112314458 pkg=com.sina.weibo cmp=com.sina.weibo/.page.ProfileInfoActivity mCallingUid=10226 } in package com.sina.weibo
+    // Allowing start of Intent { dat=sinaweibo://cardlist?containerid=2310025112314458_-_HOTMBLOG pkg=com.sina.weibo cmp=com.sina.weibo/.page.NewCardListActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(489.0,1339.0)
+:Sending Touch (ACTION_UP): 0:(527.91034,1309.9741)
+:Sending Touch (ACTION_DOWN): 0:(564.0,849.0)
+:Sending Touch (ACTION_UP): 0:(579.7486,840.4906)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://detail?mblogid=MvoPXd0NP pkg=com.sina.weibo cmp=com.sina.weibo/.feed.DetailWeiboActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(427.0,212.0)
+:Sending Touch (ACTION_UP): 0:(430.61414,211.43507)
+:Sending Touch (ACTION_DOWN): 0:(353.0,188.0)
+:Sending Touch (ACTION_UP): 0:(361.93466,187.00723)
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://userinfo?uid=5112314458 pkg=com.sina.weibo cmp=com.sina.weibo/.page.ProfileInfoActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(588.0,978.0)
+:Sending Touch (ACTION_UP): 0:(584.2619,976.69)
+    // Allowing start of Intent { cmp=com.sina.weibo/.feed.DetailWeiboActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(377.0,1393.0)
+:Sending Touch (ACTION_UP): 0:(375.96774,1372.4846)
+    //[calendar_time:2023-05-17 00:46:39.290  system_uptime:96683658]
+    // Sending event #7800
+    // activityResuming(com.sina.weibo)
+    //[calendar_time:2023-05-17 00:46:40.292  system_uptime:96684659]
+    // Sending event #7800
+    // Allowing start of Intent { act=android.intent.action.VIEW dat=sinaweibo://photoalbuminfo?containerid=2318265112314458_-_mobile_profile_album_-_photo_-_avatar_-_3771085169551292_-_头像&background=ffffff pkg=com.sina.weibo cmp=com.sina.weibo/.page.ProfilePhotoAlbumActivity mCallingUid=10226 } in package com.sina.weibo
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(365.0,188.0)
+:Sending Touch (ACTION_UP): 0:(258.0791,102.12819)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(418.0,1156.0)
+:Sending Touch (ACTION_UP): 0:(400.9936,1151.1812)
+:Sending Touch (ACTION_DOWN): 0:(492.0,136.0)
+:Sending Touch (ACTION_UP): 0:(473.34833,186.86598)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+    //[calendar_time:2023-05-17 00:47:03.943  system_uptime:96708310]
+    // Sending event #7900
+    //[calendar_time:2023-05-17 00:47:04.945  system_uptime:96709312]
+    // Sending event #7900
+:Sending Touch (ACTION_DOWN): 0:(706.0,1004.0)
+:Sending Touch (ACTION_UP): 0:(696.28937,1003.3401)
+:Sending Touch (ACTION_DOWN): 0:(630.0,646.0)
+:Sending Touch (ACTION_UP): 0:(611.85803,628.97363)
+:Sending Touch (ACTION_DOWN): 0:(543.0,736.0)
+:Sending Touch (ACTION_UP): 0:(541.99274,738.4064)
+:Sending Touch (ACTION_DOWN): 0:(429.0,273.0)
+:Sending Touch (ACTION_UP): 0:(398.63498,303.5559)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.sina.weibo/.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.sina.weibo/.SplashActivity mCallingUid=2000 } in package com.sina.weibo
+:Sending Touch (ACTION_DOWN): 0:(374.0,883.0)
+:Sending Touch (ACTION_UP): 0:(340.83887,836.9928)
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.FileNotFoundException: /dev/input/event0: open failed: EACCES (Permission denied)
+    // Injection Failed
+:Sending Touch (ACTION_DOWN): 0:(0.0,27.0)
+:Sending Touch (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(444.0,1253.0)
+:Sending Touch (ACTION_UP): 0:(443.8163,1237.5752)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(107.0,110.0)
+:Sending Touch (ACTION_UP): 0:(94.59346,107.84038)
+    // activityResuming(com.sina.weibo)
+:Sending Touch (ACTION_DOWN): 0:(556.0,1220.0)
+:Sending Touch (ACTION_UP): 0:(500.745,1159.7415)
+    //[calendar_time:2023-05-17 00:47:29.310  system_uptime:96733677]
+    // Sending event #8000
+    //[calendar_time:2023-05-17 00:47:30.311  system_uptime:96734678]
+    // Sending event #8000
+:Sending Touch (ACTION_DOWN): 0:(142.0,19.0)
+:Sending Touch (ACTION_UP): 0:(221.74242,35.021313)
+:Sending Touch (ACTION_DOWN): 0:(627.0,770.0)
+:Sending Touch (ACTION_UP): 0:(626.6833,760.38824)
+:Sending Touch (ACTION_DOWN): 0:(65.0,568.0)
+:Sending Touch (ACTION_UP): 0:(132.1125,570.0687)
+:Sending Touch (ACTION_DOWN): 0:(393.0,293.0)
+:Sending Touch (ACTION_UP): 0:(392.77762,288.6334)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(279.0,319.0)
+:Sending Touch (ACTION_UP): 0:(269.62558,332.74857)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(122.0,373.0)
+:Sending Touch (ACTION_UP): 0:(65.883286,391.7627)

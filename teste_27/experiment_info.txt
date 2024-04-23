@@ -1,0 +1,49 @@
+com.baidu.searchbox
+STARTED EXERCISING AT 14-06-2023 14:53:04
+
+
+Collecting data 497. (19272) (14-06-2023 20:14:16)
+Collecting data 498. (19311) (14-06-2023 20:14:55)
+Collecting data 499. (19350) (14-06-2023 20:15:34)
+Collecting data 500. (19389) (14-06-2023 20:16:13)
+error: closed
+adb.exe: device offline
+adb.exe: device offline
+adb.exe: device offline
+adb.exe: device offline
+- waiting for device -
+Collecting data 501. (19431) (14-06-2023 20:16:55)
+Collecting data 502. (19470) (14-06-2023 20:17:34)
+Collecting data 503. (19509) (14-06-2023 20:18:13)
+Collecting data 504. (19548) (14-06-2023 20:18:52)
+Collecting data 505. (19587) (14-06-2023 20:19:31)
+Collecting data 506. (19628) (14-06-2023 20:20:12)
+Collecting data 507. (19670) (14-06-2023 20:20:54)
+Collecting data 508. (19711) (14-06-2023 20:21:35)
+Collecting data 509. (19751) (14-06-2023 20:22:15)
+Collecting data 510. (19792) (14-06-2023 20:22:56)
+Collecting data 511. (19832) (14-06-2023 20:23:36)
+Collecting data 512. (19873) (14-06-2023 20:24:17)
+Collecting data 513. (19913) (14-06-2023 20:24:57)
+Collecting data 514. (19953) (14-06-2023 20:25:37)
+Collecting data 515. (20025) (14-06-2023 20:26:49)
+Collecting data 516. (20097) (14-06-2023 20:28:01)
+Collecting data 517. (20168) (14-06-2023 20:29:12)
+Collecting data 518. (20241) (14-06-2023 20:30:25)
+Collecting data 519. (20313) (14-06-2023 20:31:37)
+Collecting data 520. (20386) (14-06-2023 20:32:50)
+Collecting data 521. (20458) (14-06-2023 20:34:02)
+adb.exe: device offline
+adb.exe: device offline
+adb.exe: device offline
+adb.exe: device offline
+adb.exe: device offline
+- waiting for device -
+error: protocol fault (status 17 03 03 00?!)
+Collecting data 522. (20648) (14-06-2023 20:37:12)
+adb.exe: no devices/emulators found
+adb.exe: no devices/emulators found
+adb.exe: no devices/emulators found
+adb.exe: no devices/emulators found
+adb.exe: no devices/emulators found
+- waiting for device -

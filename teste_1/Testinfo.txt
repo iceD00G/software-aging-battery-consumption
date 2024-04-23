@@ -1,0 +1,10 @@
+Events injected: 10000
+:Sending rotation degree=0, persist=false
+:Dropped: keys=0 pointers=0 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=5025248ms (0ms mobile, 0ms wifi, 5025248ms not connected)
+// Monkey finished
+
+5025248 ms
+
+5025 s
+
